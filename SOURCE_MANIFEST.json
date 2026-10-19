@@ -1,0 +1,3221 @@
+{
+  "release": "1.0.0",
+  "date": "2026-10-18",
+  "hash_algorithm": "SHA-256",
+  "note": "Original source groups are relative labels in the completed experiment snapshot, not required runtime paths. The manifest excludes itself. New run outputs are not release files.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 215,
+      "sha256": "b6042f356c1108658c8081152a7db72cb89e9802078091f09cf2c648731271f3"
+    },
+    {
+      "path": "baseline/KR.m",
+      "bytes": 313,
+      "sha256": "8e513c5c20e3caea869ba074fedfebb9a0c203a2ec1d1fd39df9250264faa60c",
+      "original_source_group": "source_snapshots/baseline/KR.m",
+      "original_sha256": "8e513c5c20e3caea869ba074fedfebb9a0c203a2ec1d1fd39df9250264faa60c",
+      "modified_for_release": false
+    },
+    {
+      "path": "baseline/M2VALSE_tby2.m",
+      "bytes": 14793,
+      "sha256": "94457d6591ad97313615f1243e03043d4c8b564aba68b09617710c7c2f0c88c2",
+      "original_source_group": "source_snapshots/baseline/M2VALSE_tby2.m",
+      "original_sha256": "94457d6591ad97313615f1243e03043d4c8b564aba68b09617710c7c2f0c88c2",
+      "modified_for_release": false
+    },
+    {
+      "path": "baseline/README.md",
+      "bytes": 883,
+      "sha256": "19f95a78be6735fa882be6b43afab36767494d3b49dd209d60b2e1dec50343b0"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1109,
+      "sha256": "727abe5d47ef1ae0a85fa2494c00dc70d307178276a1c31564a798bc443d615b"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 671,
+      "sha256": "6cde81439a6f73c7d37d73df417a19c01e9e5e1339f4eb24486ae237c753e2a4"
+    },
+    {
+      "path": "configs/experiments.json",
+      "bytes": 983,
+      "sha256": "c5f44bf6565ca26a2cfffe4e1d17f3a7e44f92869c20f28c3069d7a2b86d1b7a"
+    },
+    {
+      "path": "configs/order1.json",
+      "bytes": 1538,
+      "sha256": "676582e11444e497323c852720780b5e41a2c1e89303bd780e16f4bb6c3ae5f1"
+    },
+    {
+      "path": "configs/order2.json",
+      "bytes": 1537,
+      "sha256": "238b707f889d5d8d70f39a06c6e77f07b1dfb82a64925e8893cd53ea0ea53f9b"
+    },
+    {
+      "path": "docs/REPRODUCING.md",
+      "bytes": 12229,
+      "sha256": "feb4533e5fb335f4fbf87fb3040341d4b26b182e01ae91c2bd27b516625d0b94"
+    },
+    {
+      "path": "docs/RESULTS.md",
+      "bytes": 6553,
+      "sha256": "3aaa1a154669d286add2a44e224ff1a5498940bd6989e755d8e029e30f17df4f"
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "bytes": 4398,
+      "sha256": "a3eb9e55a08d4a00d6da44950e9bba5108aedfa4ceacc0e69429c171669376c4"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1087,
+      "sha256": "182f4fdfaeb1331e216cc4c41752fc0bc27d27637514b9c261a6f8b2993ae6c9"
+    },
+    {
+      "path": "licenses/Apache-2.0.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "licenses/NVIDIA-Source-Code-License-NC.txt",
+      "bytes": 4767,
+      "sha256": "803ddcc4dd20de6387e2e5731f6a864ea01364dd305b17bda7157bcab0c39295"
+    },
+    {
+      "path": "licenses/pytorch_ema-MIT.txt",
+      "bytes": 1083,
+      "sha256": "f69cc472e818b58daa5b5ff7a6e741c09c33e8c43e4705f9489af30246c76aa8"
+    },
+    {
+      "path": "licenses/sources.json",
+      "bytes": 971,
+      "sha256": "6e717e831f4b51d71ecf31785504315db50aa2df1df5968d1df893d745193281"
+    },
+    {
+      "path": "licenses/stylegan2-pytorch-MIT.txt",
+      "bytes": 1071,
+      "sha256": "caa1b47f5eb0379b968861ea9e9b07c100d5f9d69e9deec09babf6bf790ab515"
+    },
+    {
+      "path": "matlab/evaluate_mvalse.m",
+      "bytes": 4660,
+      "sha256": "86880eea13aa543dc5ac7a2286ae3261aa6bdfa75d873f81bac88880b94424c1",
+      "original_source_group": "matlab/evaluate_mvalse.m",
+      "original_sha256": "c577add4b25e64353ce04fe12532e27c5a6fd89733308d225415276163352099",
+      "modified_for_release": true
+    },
+    {
+      "path": "matlab/generate_channels.m",
+      "bytes": 3934,
+      "sha256": "2d9cd7656bd59568b96d25e3788fa02a93ac473b551a0fe5c56f1573d3ddf5c3",
+      "original_source_group": "matlab/generate_channels.m",
+      "original_sha256": "6e9376be60076a5f03a5f1962681bba4bae029d0cde4e358a205118c48f56fde",
+      "modified_for_release": true
+    },
+    {
+      "path": "matlab/run_baseline.m",
+      "bytes": 665,
+      "sha256": "8806003ad7af8415076ce1378780ca82013d1a76ac54c8b52c70168978cd1c49"
+    },
+    {
+      "path": "matlab/run_channel_generation.m",
+      "bytes": 1034,
+      "sha256": "a23457dd5d3fcc4e50049a02b346881917d9be18216a4cf67703b6136f63c33e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4564,
+      "sha256": "ebf075215020d8351dd6f3008111bf992ed07c10b6404a551caeb8e27fa1d322"
+    },
+    {
+      "path": "README_zh.md",
+      "bytes": 4147,
+      "sha256": "34b04d3e1c9759ab20688e315f9353126fe571e658e711560725d7af2ec12b7d"
+    },
+    {
+      "path": "release_checks.json",
+      "bytes": 3203,
+      "sha256": "9ecf61c39ed9bc85b2aaa20fb1eced0ced78f701c230b8622af11eb336853a29"
+    },
+    {
+      "path": "requirements-plot.txt",
+      "bytes": 34,
+      "sha256": "eb38235752e8fbe1c0852897ed7a3ea644e6987a4abce9c3316933af14f18799"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 196,
+      "sha256": "2bb603b5b0f2dbb4edd8060df945066f18a70b0caa12e4a94dad77fb176220f2"
+    },
+    {
+      "path": "results/reference/E0_power_db.csv",
+      "bytes": 19463,
+      "sha256": "07cf27578506e1dda974d15475b4fc47948b6481fa8b2fd72be1a039ecc6c798"
+    },
+    {
+      "path": "results/reference/figures/E0_angular_spectrum.pdf",
+      "bytes": 29598,
+      "sha256": "51f0d436260cd2cde2bae4ab9dcd811380b9ff759ad9a6ef0a3f81fc1b4ea3f7"
+    },
+    {
+      "path": "results/reference/figures/E0_angular_spectrum.png",
+      "bytes": 101096,
+      "sha256": "f8a9793151589b033062f6b0934a7ccaa18b9c91e3a3a19ec99c1d272496a9a1"
+    },
+    {
+      "path": "results/reference/figures/fresh_historical/E1_all_trials.pdf",
+      "bytes": 18576,
+      "sha256": "28fe505e4418bc165314b7acaa79de28f8bab217abf31f5dfbe72b5ca784c6e7"
+    },
+    {
+      "path": "results/reference/figures/fresh_historical/E1_all_trials.png",
+      "bytes": 197655,
+      "sha256": "61ae6e2e5fc4779834612b37272c76747ad2f8df85dd46cc903355d19310fc05"
+    },
+    {
+      "path": "results/reference/figures/fresh_historical/E1_legacy_masks.pdf",
+      "bytes": 19150,
+      "sha256": "01ebbb20c670accbf9237a8c6d390443f230826d00b206206a0556650b7033fd"
+    },
+    {
+      "path": "results/reference/figures/fresh_historical/E1_legacy_masks.png",
+      "bytes": 208122,
+      "sha256": "c099a43c78a0a060d424cf62fe8e1f71337f840389d448871d12c81731e238cd"
+    },
+    {
+      "path": "results/reference/figures/fresh_historical/E2_all_trials.pdf",
+      "bytes": 21959,
+      "sha256": "b6f942dccb524df552bd4bb2c85e4d842616414abc43c15b23901d1d7537ac1f"
+    },
+    {
+      "path": "results/reference/figures/fresh_historical/E2_all_trials.png",
+      "bytes": 175758,
+      "sha256": "7165faea6330fdad84dcf5648402875ff04315aeadcc0ceef4dfacf064131eca"
+    },
+    {
+      "path": "results/reference/figures/fresh_historical/E2_legacy_view.pdf",
+      "bytes": 20589,
+      "sha256": "6b212f14bc7414e4cc65e1cc9475f32a0875ec97e7db5df2caeac1c5a0b4f840"
+    },
+    {
+      "path": "results/reference/figures/fresh_historical/E2_legacy_view.png",
+      "bytes": 190379,
+      "sha256": "3390ccdc67b1f43cdd005a814559d15e9d552eda3219b21c82eb28f3cbfc0f42"
+    },
+    {
+      "path": "results/reference/figures/fresh_historical/E3_all_trials.pdf",
+      "bytes": 21115,
+      "sha256": "3513cc9bd04caa80a06b4c3545a7b220276bc654848b61aaf5bc1fd26fbd3129"
+    },
+    {
+      "path": "results/reference/figures/fresh_historical/E3_all_trials.png",
+      "bytes": 277952,
+      "sha256": "362c2f823e6645e976e087b88ff84749d3691dd259eaca3bf72bdc31c237da6d"
+    },
+    {
+      "path": "results/reference/figures/fresh_historical/E3_legacy_masks.pdf",
+      "bytes": 21281,
+      "sha256": "70663a231a56088f5a09e46876def8093b2599f2bfd265ee300c39f0e76054d6"
+    },
+    {
+      "path": "results/reference/figures/fresh_historical/E3_legacy_masks.png",
+      "bytes": 280187,
+      "sha256": "beb99be49d4d9526dad1ad00d4058bbafc8c2f3ca55d88b14ab84130dcfe10d3"
+    },
+    {
+      "path": "results/reference/figures/fresh_paper/E1_all_trials.pdf",
+      "bytes": 18738,
+      "sha256": "428e23d682f19a2dac22ee667a75542a61bc4ffb89ae532393dc1b1bbc7d42a6"
+    },
+    {
+      "path": "results/reference/figures/fresh_paper/E1_all_trials.png",
+      "bytes": 187036,
+      "sha256": "aa3834c8566329bee4fa4d1669df79bbb8a3a5ba8c66a28f61845fc3364d8d05"
+    },
+    {
+      "path": "results/reference/figures/fresh_paper/E1_legacy_masks.pdf",
+      "bytes": 19166,
+      "sha256": "fd4040d26af404b3a967c4573c54a732c8d3c761d53a6948611aa1336fcacf79"
+    },
+    {
+      "path": "results/reference/figures/fresh_paper/E1_legacy_masks.png",
+      "bytes": 215287,
+      "sha256": "7009f3f3384496a18f5d03e99ec8c4fa4254610b2b064b83b62ae79b794d01d1"
+    },
+    {
+      "path": "results/reference/figures/fresh_paper/E2_all_trials.pdf",
+      "bytes": 21639,
+      "sha256": "37892b026389d954f73c8e4b6a5c9f3c20d4014e4751de978a8de801b0c92415"
+    },
+    {
+      "path": "results/reference/figures/fresh_paper/E2_all_trials.png",
+      "bytes": 157730,
+      "sha256": "4b19eefe84a9094fcab3d9d938c8ea45c6f4e3a14fee2610bab7076b0f15c05b"
+    },
+    {
+      "path": "results/reference/figures/fresh_paper/E2_legacy_view.pdf",
+      "bytes": 20592,
+      "sha256": "613934514b48e6c012c1c9d68a28dcf8a9b6bcf43c5e6d314c827ea0e0b88ac0"
+    },
+    {
+      "path": "results/reference/figures/fresh_paper/E2_legacy_view.png",
+      "bytes": 192292,
+      "sha256": "68c93402d0bb6ec18d05eec5021ba72e9c9258eb0698edcd1d14b1f96d12835e"
+    },
+    {
+      "path": "results/reference/figures/fresh_paper/E3_all_trials.pdf",
+      "bytes": 21159,
+      "sha256": "f78ac55eb332a6fbee91729d1c50e39202cf18d836b8695bd5da453b20c48fa9"
+    },
+    {
+      "path": "results/reference/figures/fresh_paper/E3_all_trials.png",
+      "bytes": 265416,
+      "sha256": "941ea1596c95806cd22d2d770c82e996e625dd7517453164e42af15b91e7100b"
+    },
+    {
+      "path": "results/reference/figures/fresh_paper/E3_legacy_masks.pdf",
+      "bytes": 21603,
+      "sha256": "33584d451fa9d5d622a66cd1f25a9eb575d9dac4268437fe465d38e4583ce025"
+    },
+    {
+      "path": "results/reference/figures/fresh_paper/E3_legacy_masks.png",
+      "bytes": 289613,
+      "sha256": "aa907f3b5f90f3be77d99f18bcfe2ff8bd702b7e4134e472e3e1546986f02bea"
+    },
+    {
+      "path": "results/reference/figures/training_validation.pdf",
+      "bytes": 26474,
+      "sha256": "b437e77b98304bc12a4cb824313057394146d931c5d00dfba38adfe8ebbdd7ac"
+    },
+    {
+      "path": "results/reference/figures/training_validation.png",
+      "bytes": 226642,
+      "sha256": "46f5a6e9db53f6ab280e7531bd3ea3733c8bad32064d03f854c5d5b7c0cb3b0c"
+    },
+    {
+      "path": "results/reference/fresh_historical_iterations.csv",
+      "bytes": 6109,
+      "sha256": "a69153ef656389e3306a414817dff96e5b645194531166eeb8914e8038cc790d"
+    },
+    {
+      "path": "results/reference/fresh_historical_summary.csv",
+      "bytes": 19644,
+      "sha256": "754885be33e1dbe43a124ded1134a79ef19d5a2fccdc23d32e9975eba9ec4617"
+    },
+    {
+      "path": "results/reference/fresh_paper_iterations.csv",
+      "bytes": 5376,
+      "sha256": "3eff1bdf9660a646703f7b9ea5b7b5dce4cf0842bcaa52de506805f680aba5fb"
+    },
+    {
+      "path": "results/reference/fresh_paper_summary.csv",
+      "bytes": 19103,
+      "sha256": "76d39cfe79787bc0e802ce1bf0fd83cace58ae40b2da41c781f434a9e246a658"
+    },
+    {
+      "path": "results/reference/metadata.json",
+      "bytes": 2516,
+      "sha256": "cae8d7cd33dbed9aff23a15634b3a11d2dad0a35cb6c290d17d8d1d0234b2394"
+    },
+    {
+      "path": "results/reference/training_validation.csv",
+      "bytes": 12550,
+      "sha256": "a1221dc5e0089f554865dc77530521cc94188c94d59e49cdd18b2d1e1c812af5"
+    },
+    {
+      "path": "scripts/artifact_support.py",
+      "bytes": 3207,
+      "sha256": "60fa23e89428f0dcf70487a1ce907e21158acf6786dcca480ee281b065944305",
+      "original_source_group": "scripts/artifact_support.py",
+      "original_sha256": "60fa23e89428f0dcf70487a1ce907e21158acf6786dcca480ee281b065944305",
+      "modified_for_release": false
+    },
+    {
+      "path": "scripts/checkpoint_support.py",
+      "bytes": 2018,
+      "sha256": "561064f50bc4e55907d54dc69a8f01099184ef13958f1f4b8daf76d5284d3891"
+    },
+    {
+      "path": "scripts/evaluate.py",
+      "bytes": 9156,
+      "sha256": "2e057f7070e4e16ac0ee0e1da08230157df1f3f9ea770c465c91b90133202d63",
+      "original_source_group": "scripts/evaluate.py",
+      "original_sha256": "e6e49f6be54510e3160bbe72279cce33a4660aee1bcfd127fe7435a3a43625fc",
+      "modified_for_release": true
+    },
+    {
+      "path": "scripts/freeze_model.py",
+      "bytes": 3706,
+      "sha256": "7a2ab3579ca03ecafce71b3f8ec15d02a0b51f125157ca6f7705295a90c7ef66",
+      "original_source_group": "scripts/freeze_model.py",
+      "original_sha256": "cbfa3916d27e14aeae972f870ebbc46cf029d6866ece4bff6b4bd40294162716",
+      "modified_for_release": true
+    },
+    {
+      "path": "scripts/localization.py",
+      "bytes": 5122,
+      "sha256": "873d20476a9bb41ddc66f9d314a5804a27c57d4c839a2cbdb59200fca8a85d51",
+      "original_source_group": "scripts/localization.py",
+      "original_sha256": "873d20476a9bb41ddc66f9d314a5804a27c57d4c839a2cbdb59200fca8a85d51",
+      "modified_for_release": false
+    },
+    {
+      "path": "scripts/make_covariance.py",
+      "bytes": 2201,
+      "sha256": "aaea8530cc61ada6a6ddb9a61a2cd58f5c89b1bff7745465da5edd9ea8593544",
+      "original_source_group": "scripts/make_covariance.py",
+      "original_sha256": "8083b941a11314a51c44cce8d8734b3ecc8b40ccaf912569da1a50c8d94a90cf",
+      "modified_for_release": true
+    },
+    {
+      "path": "scripts/make_observations.py",
+      "bytes": 3717,
+      "sha256": "90a43bf57c5c62ad1710381155c9c549fe240df685cdb051e6590b5f92f34ba5",
+      "original_source_group": "scripts/make_observations.py",
+      "original_sha256": "90a43bf57c5c62ad1710381155c9c549fe240df685cdb051e6590b5f92f34ba5",
+      "modified_for_release": false
+    },
+    {
+      "path": "scripts/model_runtime.py",
+      "bytes": 2783,
+      "sha256": "cd15ca076811cb1f0e4c2be072a8bee39603c67aa1176596592f9dc11a945f3f",
+      "original_source_group": "scripts/model_runtime.py",
+      "original_sha256": "7019656013dd55c75a4d5bdf141110378ca70dea2e9eaf21fbfb0e2a1747e246",
+      "modified_for_release": true
+    },
+    {
+      "path": "scripts/numerics.py",
+      "bytes": 1961,
+      "sha256": "4de16e48b7bbcbe7faa2f8a106e216761043d35cf29eace9a4d771892b1e75cf",
+      "original_source_group": "scripts/numerics.py",
+      "original_sha256": "4de16e48b7bbcbe7faa2f8a106e216761043d35cf29eace9a4d771892b1e75cf",
+      "modified_for_release": false
+    },
+    {
+      "path": "scripts/observation_support.py",
+      "bytes": 1782,
+      "sha256": "0766d63365c0af0a947fc7d8e0be8651dc253c5b7b8d6dcc1e9fdbada6135848",
+      "original_source_group": "scripts/observation_support.py",
+      "original_sha256": "0766d63365c0af0a947fc7d8e0be8651dc253c5b7b8d6dcc1e9fdbada6135848",
+      "modified_for_release": false
+    },
+    {
+      "path": "scripts/plot_angular_spectrum.py",
+      "bytes": 2354,
+      "sha256": "50ef9ae03ed223faa2e36b882133329240a605b4f466e3e848c553739938b0ad",
+      "original_source_group": "scripts/plot_angular_spectrum.py",
+      "original_sha256": "340042a22000651938912d5c99b6db587ef4eb7006536ded666bd233cc313b92",
+      "modified_for_release": true
+    },
+    {
+      "path": "scripts/plot_reference_results.py",
+      "bytes": 5974,
+      "sha256": "47f28a0692ec5a9286e5c1faabab0d099dcc94c53df24e8b8754796390da09ec"
+    },
+    {
+      "path": "scripts/run_experiment.py",
+      "bytes": 3690,
+      "sha256": "f9464855955b994bb2f17623905eea14849eb8816207189be3e0ce1855605ea7"
+    },
+    {
+      "path": "scripts/run_support.py",
+      "bytes": 1974,
+      "sha256": "36e6359312b2d7cb69db22f172700243d9c20e8e4215fdb384034d8da4a2e36c"
+    },
+    {
+      "path": "scripts/summarize_results.py",
+      "bytes": 11956,
+      "sha256": "c2fb1c25649df9ffc900482e6cac05eeb52d99450c9e791d486eebfad363b7af",
+      "original_source_group": "scripts/summarize_results.py",
+      "original_sha256": "a13599a88ff8f07baa25ba0c1471fb7d8d53930d996242ea020826081596a21f",
+      "modified_for_release": true
+    },
+    {
+      "path": "scripts/train_score.py",
+      "bytes": 15551,
+      "sha256": "bc150770c20ab8bee83dc2236414d891ed47457733cd882738eb41696ce33bb9",
+      "original_source_group": "scripts/train_score.py",
+      "original_sha256": "32a45eee19ea49df1840408a4c1b10092f1ee616f5773f7af8d7dae7fdeeeb9d",
+      "modified_for_release": true
+    },
+    {
+      "path": "scripts/train_support.py",
+      "bytes": 2046,
+      "sha256": "bce0382121db4363ed64cfe059e4a6439c115c4d718c46ed883676acd5c9a3d9",
+      "original_source_group": "scripts/train_support.py",
+      "original_sha256": "bce0382121db4363ed64cfe059e4a6439c115c4d718c46ed883676acd5c9a3d9",
+      "modified_for_release": false
+    },
+    {
+      "path": "scripts/turbo.py",
+      "bytes": 3769,
+      "sha256": "5bdb9f1fbdc2a3489afe89b8086177b3820d8eb513bc37e998943924fc33bd53",
+      "original_source_group": "scripts/turbo.py",
+      "original_sha256": "5bdb9f1fbdc2a3489afe89b8086177b3820d8eb513bc37e998943924fc33bd53",
+      "modified_for_release": false
+    },
+    {
+      "path": "scripts/verify_package.py",
+      "bytes": 1011,
+      "sha256": "588220284237478975af87a323b4eddf90954c045e35d039d6d2112e83000606"
+    },
+    {
+      "path": "tests/reference/loc_utils_refine.py",
+      "bytes": 36319,
+      "sha256": "73e0d483c5696d9c2d5056f3f90c242eb5c77f2adc93dc3131f28d33472b6c12",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_2nd/loc_utils_refine.py",
+      "original_sha256": "73e0d483c5696d9c2d5056f3f90c242eb5c77f2adc93dc3131f28d33472b6c12",
+      "modified_for_release": false
+    },
+    {
+      "path": "tests/reference/turbo_updates.py.txt",
+      "bytes": 4231,
+      "sha256": "a5dbf737f4ed62992b54ba115c3ccba031abe0820cb217c13a2c4ba267d97fc1"
+    },
+    {
+      "path": "tests/test_artifact_support.py",
+      "bytes": 2948,
+      "sha256": "a1d90378f9a00e6801fc51087e702deca0608ea3e5d7f8f7198c14d845282956",
+      "original_source_group": "checks/test_artifact_support.py",
+      "original_sha256": "1b38636c981e35b11aa86598c03013e1a94d38e250d93194d1bead0d3c198263",
+      "modified_for_release": true
+    },
+    {
+      "path": "tests/test_localization.py",
+      "bytes": 3459,
+      "sha256": "4050173eca74feb03f6f72cb16a0a16b5aeeb1abf84a4acabea53b44d94d74f3",
+      "original_source_group": "checks/test_localization.py",
+      "original_sha256": "5d8b84ef69f635b7cb82499cc3af7c3a13a0c2e64e40c72cd59f9bcf00ddeab9",
+      "modified_for_release": true
+    },
+    {
+      "path": "tests/test_numerics.py",
+      "bytes": 1557,
+      "sha256": "a958128cdae1a248f5c15a0f9d8855b979329d07fa2341ac2701c42f45b49b30",
+      "original_source_group": "checks/test_numerics.py",
+      "original_sha256": "b5ed3249abb966f59c658939b5acf04b3a324f321afe8d5de62e1c69013108c2",
+      "modified_for_release": true
+    },
+    {
+      "path": "tests/test_observations.py",
+      "bytes": 1327,
+      "sha256": "9bdc7c4958905ad92dd818dab2317a2c430321a1698ee49ea93e903aaff9d290",
+      "original_source_group": "checks/test_observations.py",
+      "original_sha256": "6b81b1cb103e7d8a849a6aa8e7b6c0d5081ab402a56729c5b087dfb04f952b7f",
+      "modified_for_release": true
+    },
+    {
+      "path": "tests/test_portable_import.py",
+      "bytes": 914,
+      "sha256": "0b10f01405bfdf2b6d592e62ea36b375730ac65bf3b6b4a8f75da8afced06ad6"
+    },
+    {
+      "path": "tests/test_release_regressions.py",
+      "bytes": 4115,
+      "sha256": "c502cb8d79ffc5ba3b1416456148dc1180427a5a7765fea79dc36b5076a4632d"
+    },
+    {
+      "path": "tests/test_run_contract.py",
+      "bytes": 1347,
+      "sha256": "66edb570b3227da76990b04d3fc9b8e0a18933e75fcc8e4c55f1d87e08156eb6"
+    },
+    {
+      "path": "tests/test_summary.py",
+      "bytes": 5118,
+      "sha256": "0d43f351092dd8d61ee773f1ccdae04b9c3a352f07de1bbdc1c83b0ebd25c059",
+      "original_source_group": "checks/test_summary.py",
+      "original_sha256": "736ca28ebaf5fbc80563a4927f2a8055d72c8d86a93e82c34d2fd121ad9454fc",
+      "modified_for_release": true
+    },
+    {
+      "path": "tests/test_train_support.py",
+      "bytes": 1752,
+      "sha256": "837a61b770b34aa008587bb2c7e65033357c154ef83c35b8d866dfb4aeb61fe7",
+      "original_source_group": "checks/test_train_support.py",
+      "original_sha256": "c7060158a81eb97e86138890f3783548ac95e9c8cca168af737ebbe2057e4068",
+      "modified_for_release": true
+    },
+    {
+      "path": "tests/test_turbo.py",
+      "bytes": 3252,
+      "sha256": "a4fc85f6527ebdb582d76ad12cae37b9b672bc30de9acbfc11db842c267aa2b4",
+      "original_source_group": "checks/test_turbo.py",
+      "original_sha256": "5c97b632605a241362ba9bbdc13b30ca6c094b1edbb1c94c387c562eaf63fe93",
+      "modified_for_release": true
+    },
+    {
+      "path": "third_party/quadriga_src/+qf/acdf.m",
+      "bytes": 8352,
+      "sha256": "865e792e412f100affe9feba6d533da8e53563a56e35625072784626db0298b1",
+      "original_source_group": "source_snapshots/quadriga_src/+qf/acdf.m",
+      "original_sha256": "865e792e412f100affe9feba6d533da8e53563a56e35625072784626db0298b1",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/+qf/calc_angles.m",
+      "bytes": 27128,
+      "sha256": "49faa091804a7b420392c2aa8c0fe54216c3b73c14a1479edcdf2dd7eb10a137",
+      "original_source_group": "source_snapshots/quadriga_src/+qf/calc_angles.m",
+      "original_sha256": "49faa091804a7b420392c2aa8c0fe54216c3b73c14a1479edcdf2dd7eb10a137",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/+qf/calc_angular_spreads.m",
+      "bytes": 3746,
+      "sha256": "e118610d55a0f2d888e4021d25c029f9622d73c810eaf050767314aba68a4dcd",
+      "original_source_group": "source_snapshots/quadriga_src/+qf/calc_angular_spreads.m",
+      "original_sha256": "e118610d55a0f2d888e4021d25c029f9622d73c810eaf050767314aba68a4dcd",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/+qf/calc_angular_spreads_sphere.m",
+      "bytes": 12017,
+      "sha256": "bf6ee363515dec21f0f5180d243473e8dcb70c567d9e5fb3f3d9b46c5f84eacd",
+      "original_source_group": "source_snapshots/quadriga_src/+qf/calc_angular_spreads_sphere.m",
+      "original_sha256": "bf6ee363515dec21f0f5180d243473e8dcb70c567d9e5fb3f3d9b46c5f84eacd",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/+qf/calc_ant_rotation.m",
+      "bytes": 7780,
+      "sha256": "4fdaa65866c4164bac0de38ed258f4f4928c46a0fea867f1fcefbf60c6933f25",
+      "original_source_group": "source_snapshots/quadriga_src/+qf/calc_ant_rotation.m",
+      "original_sha256": "4fdaa65866c4164bac0de38ed258f4f4928c46a0fea867f1fcefbf60c6933f25",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/+qf/calc_delay_spread.m",
+      "bytes": 3692,
+      "sha256": "9d006738929aa37d42864832b2389e88033d450a6189ed1ee6cad752ac491b02",
+      "original_source_group": "source_snapshots/quadriga_src/+qf/calc_delay_spread.m",
+      "original_sha256": "9d006738929aa37d42864832b2389e88033d450a6189ed1ee6cad752ac491b02",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/+qf/calc_xpr.m",
+      "bytes": 5203,
+      "sha256": "b5a255c6c87e47faee18b3f576545cdf585491d0f9bd0ab7c51304b6d5cc3e2e",
+      "original_source_group": "source_snapshots/quadriga_src/+qf/calc_xpr.m",
+      "original_sha256": "b5a255c6c87e47faee18b3f576545cdf585491d0f9bd0ab7c51304b6d5cc3e2e",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/+qf/eqo.m",
+      "bytes": 2297,
+      "sha256": "102144dc439ea4dab7c2811d55580fef8272fc156f0a52d58d15dccda35ba57e",
+      "original_source_group": "source_snapshots/quadriga_src/+qf/eqo.m",
+      "original_sha256": "102144dc439ea4dab7c2811d55580fef8272fc156f0a52d58d15dccda35ba57e",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/+qf/interp.m",
+      "bytes": 4579,
+      "sha256": "d8ab05f9d55d7d287ff3a648c88bae66133a10c715dc4f0179e5f3c98e9377b4",
+      "original_source_group": "source_snapshots/quadriga_src/+qf/interp.m",
+      "original_sha256": "d8ab05f9d55d7d287ff3a648c88bae66133a10c715dc4f0179e5f3c98e9377b4",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/+qf/log2dfit.m",
+      "bytes": 8017,
+      "sha256": "d6c1296d6858bd2b266968cc252c7b6f28f9fe0c87adc14f7d270b83bdce3363",
+      "original_source_group": "source_snapshots/quadriga_src/+qf/log2dfit.m",
+      "original_sha256": "d6c1296d6858bd2b266968cc252c7b6f28f9fe0c87adc14f7d270b83bdce3363",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/+qf/mat2str.m",
+      "bytes": 3244,
+      "sha256": "ce3dba03e961b060935e588d4d12885c58fd29cc6d3b941c0816c6d46cd0ff68",
+      "original_source_group": "source_snapshots/quadriga_src/+qf/mat2str.m",
+      "original_sha256": "ce3dba03e961b060935e588d4d12885c58fd29cc6d3b941c0816c6d46cd0ff68",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/+qf/pack_sphere.m",
+      "bytes": 2481,
+      "sha256": "cdb80611a5cf411fb9e994d0662a6ddef6a5bd8cd388fd67e417c69037c63d08",
+      "original_source_group": "source_snapshots/quadriga_src/+qf/pack_sphere.m",
+      "original_sha256": "cdb80611a5cf411fb9e994d0662a6ddef6a5bd8cd388fd67e417c69037c63d08",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/+qf/qind2sub.m",
+      "bytes": 1933,
+      "sha256": "383e5e087ffc9cd84f27ae674c192e23b1227c536c3062c0d05ea6b4384b5576",
+      "original_source_group": "source_snapshots/quadriga_src/+qf/qind2sub.m",
+      "original_sha256": "383e5e087ffc9cd84f27ae674c192e23b1227c536c3062c0d05ea6b4384b5576",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/+qf/regression.m",
+      "bytes": 7730,
+      "sha256": "c6b0d9c66d58fc3ff7d0c4d054b645eb6d2782e4fd27e61dcc36e7a7753281e0",
+      "original_source_group": "source_snapshots/quadriga_src/+qf/regression.m",
+      "original_sha256": "c6b0d9c66d58fc3ff7d0c4d054b645eb6d2782e4fd27e61dcc36e7a7753281e0",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/+qf/reshapeo.m",
+      "bytes": 1774,
+      "sha256": "585a3085b79f5b3073570524c606a68194c185c55024dbe24138e89abeb5e1c3",
+      "original_source_group": "source_snapshots/quadriga_src/+qf/reshapeo.m",
+      "original_sha256": "585a3085b79f5b3073570524c606a68194c185c55024dbe24138e89abeb5e1c3",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/+qf/RToptix2mat.m",
+      "bytes": 10724,
+      "sha256": "e9e91c2fb6bbc4132b4bd61c831c77c923c5c6983bcfbd46808b5a19f16669e2",
+      "original_source_group": "source_snapshots/quadriga_src/+qf/RToptix2mat.m",
+      "original_sha256": "e9e91c2fb6bbc4132b4bd61c831c77c923c5c6983bcfbd46808b5a19f16669e2",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/+qf/slerp.m",
+      "bytes": 5675,
+      "sha256": "087af2e9524bddd27e37bf725c11c096bf367f2a51c3ace212e8ef98a9bceb8c",
+      "original_source_group": "source_snapshots/quadriga_src/+qf/slerp.m",
+      "original_sha256": "087af2e9524bddd27e37bf725c11c096bf367f2a51c3ace212e8ef98a9bceb8c",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/+qf/xcorrcoeff.m",
+      "bytes": 1415,
+      "sha256": "991ddcc99289f72c2626609db2cfaaa8899bd31629d932917b47ce71b1ec6233",
+      "original_source_group": "source_snapshots/quadriga_src/+qf/xcorrcoeff.m",
+      "original_sha256": "991ddcc99289f72c2626609db2cfaaa8899bd31629d932917b47ce71b1ec6233",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/append_array.m",
+      "bytes": 3260,
+      "sha256": "ce24d70b191812efe54f1153df71e53f62c92fc4e726734c5f3cabb4e56838b8",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/append_array.m",
+      "original_sha256": "ce24d70b191812efe54f1153df71e53f62c92fc4e726734c5f3cabb4e56838b8",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/beam_explorer.m",
+      "bytes": 5948,
+      "sha256": "c8a16c347b7c6e956d78be6dcc897f4e4a2a7af51ff84a4535da237bcd088236",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/beam_explorer.m",
+      "original_sha256": "c8a16c347b7c6e956d78be6dcc897f4e4a2a7af51ff84a4535da237bcd088236",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/calc_beamwidth.m",
+      "bytes": 4180,
+      "sha256": "25b6b7851044aa33b623c2dcc0fbdd09b65449b3b606e577397b0b4adf0b0116",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/calc_beamwidth.m",
+      "original_sha256": "25b6b7851044aa33b623c2dcc0fbdd09b65449b3b606e577397b0b4adf0b0116",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/calc_element_position.m",
+      "bytes": 7100,
+      "sha256": "32fee2e37fe8dea5ea3cd4021d9c9fa8aef4965dd7035499c6776757d0cfb5f4",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/calc_element_position.m",
+      "original_sha256": "32fee2e37fe8dea5ea3cd4021d9c9fa8aef4965dd7035499c6776757d0cfb5f4",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/calc_gain.m",
+      "bytes": 3738,
+      "sha256": "09045f6c2dbd10b0964c2a88d5dd92141b82e8f0d69adbf77a4a5eea75ad73ce",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/calc_gain.m",
+      "original_sha256": "09045f6c2dbd10b0964c2a88d5dd92141b82e8f0d69adbf77a4a5eea75ad73ce",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/calc_phase_diff.m",
+      "bytes": 5724,
+      "sha256": "425da3285ae191d97700e30f40ee8f82e318b6cff8d5f23e5b8bc41a33cc0057",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/calc_phase_diff.m",
+      "original_sha256": "425da3285ae191d97700e30f40ee8f82e318b6cff8d5f23e5b8bc41a33cc0057",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/combine_pattern.m",
+      "bytes": 5129,
+      "sha256": "2a12a0552814790792565953c73717bee860b2ea4e7a2435058a15d16715b95c",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/combine_pattern.m",
+      "original_sha256": "2a12a0552814790792565953c73717bee860b2ea4e7a2435058a15d16715b95c",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/copy.m",
+      "bytes": 2530,
+      "sha256": "83a2c4c05dc28b89a0b8c72252dd628e1555448d3136565aeb213780419d9db8",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/copy.m",
+      "original_sha256": "83a2c4c05dc28b89a0b8c72252dd628e1555448d3136565aeb213780419d9db8",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/copy_element.m",
+      "bytes": 2408,
+      "sha256": "d01a91d23a37f07ea3bb832db5fcdcc070cc719d021cc62d056a01677729c912",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/copy_element.m",
+      "original_sha256": "d01a91d23a37f07ea3bb832db5fcdcc070cc719d021cc62d056a01677729c912",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/double.m",
+      "bytes": 2067,
+      "sha256": "ad271f6b43baeec50d7a0669e66d8e2374630e617f515b2bad904e60a89bd68c",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/double.m",
+      "original_sha256": "ad271f6b43baeec50d7a0669e66d8e2374630e617f515b2bad904e60a89bd68c",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/generate.m",
+      "bytes": 11667,
+      "sha256": "541044b451289279ca24b41a7268744dbfe7122af591edc41d8d8b5057b89695",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/generate.m",
+      "original_sha256": "541044b451289279ca24b41a7268744dbfe7122af591edc41d8d8b5057b89695",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/import_pattern.m",
+      "bytes": 4520,
+      "sha256": "8ee8b7ed8599ec09e0f3d6c5bb78911c5f9da7dad1bfae551ea5da3bc9982626",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/import_pattern.m",
+      "original_sha256": "8ee8b7ed8599ec09e0f3d6c5bb78911c5f9da7dad1bfae551ea5da3bc9982626",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/interpolate.m",
+      "bytes": 18630,
+      "sha256": "4fb0e81cca2cdb3cdb70b7add4c266dfb2ff52986c7b9d021f9e8a2b00f1a537",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/interpolate.m",
+      "original_sha256": "4fb0e81cca2cdb3cdb70b7add4c266dfb2ff52986c7b9d021f9e8a2b00f1a537",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/normalize_gain.m",
+      "bytes": 2875,
+      "sha256": "84cf2f3b14e3efae2fdb3db4de5d459b60f5c8d58412e37f40c7f8e4bfac796d",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/normalize_gain.m",
+      "original_sha256": "84cf2f3b14e3efae2fdb3db4de5d459b60f5c8d58412e37f40c7f8e4bfac796d",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/private/gen_arrayant_3gpp.m",
+      "bytes": 3101,
+      "sha256": "220ca81355b0878d72e43ec9e7fe4cffcfb7b0d46f6b3fa2810e2c1e81dc2d7c",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/private/gen_arrayant_3gpp.m",
+      "original_sha256": "220ca81355b0878d72e43ec9e7fe4cffcfb7b0d46f6b3fa2810e2c1e81dc2d7c",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/private/gen_arrayant_3gpp_3d.m",
+      "bytes": 4213,
+      "sha256": "7f0fadec6a6b636248fdb49deff9fea2c124e62975f780db2f548c0dd6a0a48e",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/private/gen_arrayant_3gpp_3d.m",
+      "original_sha256": "7f0fadec6a6b636248fdb49deff9fea2c124e62975f780db2f548c0dd6a0a48e",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/private/gen_arrayant_3gpp_macro.m",
+      "bytes": 2928,
+      "sha256": "32cb9cbb0c4c7b6d76ac49bfbc9b58cda3012df1dfbfda08d0940a7e5a37434b",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/private/gen_arrayant_3gpp_macro.m",
+      "original_sha256": "32cb9cbb0c4c7b6d76ac49bfbc9b58cda3012df1dfbfda08d0940a7e5a37434b",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/private/gen_arrayant_3gpp_nr.m",
+      "bytes": 3807,
+      "sha256": "1e81f4229546fba38d3b899eb4c33e09e26313b2336b7b87447a878ea4f4177f",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/private/gen_arrayant_3gpp_nr.m",
+      "original_sha256": "1e81f4229546fba38d3b899eb4c33e09e26313b2336b7b87447a878ea4f4177f",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/private/gen_arrayant_custom.m",
+      "bytes": 3912,
+      "sha256": "34f30d49459b0a6016f99691bfa5b38e8b0864d6927b4be5600819c1fb52b0d4",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/private/gen_arrayant_custom.m",
+      "original_sha256": "34f30d49459b0a6016f99691bfa5b38e8b0864d6927b4be5600819c1fb52b0d4",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/private/gen_arrayant_dipole.m",
+      "bytes": 1598,
+      "sha256": "402031ed2f4fa26252b0a74393766b82085f269f30752a0b6e66b7c4249b25fb",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/private/gen_arrayant_dipole.m",
+      "original_sha256": "402031ed2f4fa26252b0a74393766b82085f269f30752a0b6e66b7c4249b25fb",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/private/gen_arrayant_half_wave_dipole.m",
+      "bytes": 1698,
+      "sha256": "205bae8d14b6c11977159ece7fa4377d491ac60eb7533ea036d8f62f8244b53d",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/private/gen_arrayant_half_wave_dipole.m",
+      "original_sha256": "205bae8d14b6c11977159ece7fa4377d491ac60eb7533ea036d8f62f8244b53d",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/private/gen_arrayant_multi.m",
+      "bytes": 3033,
+      "sha256": "a6129f863f9f9c558d63b8092437ddc772233f72a358faf516c39fc136a8e32e",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/private/gen_arrayant_multi.m",
+      "original_sha256": "a6129f863f9f9c558d63b8092437ddc772233f72a358faf516c39fc136a8e32e",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/private/gen_arrayant_omni.m",
+      "bytes": 1473,
+      "sha256": "1412df80dd3652042339abfa9fae92cec16501fe04fd96c09f913dd7b1fbc74e",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/private/gen_arrayant_omni.m",
+      "original_sha256": "1412df80dd3652042339abfa9fae92cec16501fe04fd96c09f913dd7b1fbc74e",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/private/gen_arrayant_parabolic.m",
+      "bytes": 11296,
+      "sha256": "60f82d3df3806281d9e67e1b83920ffe696e72f6526d16c731c924639cf331c9",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/private/gen_arrayant_parabolic.m",
+      "original_sha256": "60f82d3df3806281d9e67e1b83920ffe696e72f6526d16c731c924639cf331c9",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/private/gen_arrayant_parametric.m",
+      "bytes": 1799,
+      "sha256": "3fa764ce1aa7b0757e45d2fae41accd69864658c3ebb4f4df7fe128400958a6e",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/private/gen_arrayant_parametric.m",
+      "original_sha256": "3fa764ce1aa7b0757e45d2fae41accd69864658c3ebb4f4df7fe128400958a6e",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/private/gen_arrayant_testarray.m",
+      "bytes": 3088,
+      "sha256": "babf8854c6cc379c77860fe88d46dbe8d419df4e00e0cc28f6ebd536e02abcfd",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/private/gen_arrayant_testarray.m",
+      "original_sha256": "babf8854c6cc379c77860fe88d46dbe8d419df4e00e0cc28f6ebd536e02abcfd",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/private/gen_arrayant_vehicular.m",
+      "bytes": 4023,
+      "sha256": "17acb2b9dd1a3e4a4ea2510c97127bf022b7c42dcb4e1124708bf2639deb9325",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/private/gen_arrayant_vehicular.m",
+      "original_sha256": "17acb2b9dd1a3e4a4ea2510c97127bf022b7c42dcb4e1124708bf2639deb9325",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/private/load_vehicular_option2.m",
+      "bytes": 13066,
+      "sha256": "74da466d7126da885fbeb3d6b075285fbcd202332c5d1197e781be9bfe271b2f",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/private/load_vehicular_option2.m",
+      "original_sha256": "74da466d7126da885fbeb3d6b075285fbcd202332c5d1197e781be9bfe271b2f",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/qd_arrayant.m",
+      "bytes": 13107,
+      "sha256": "edfb2b6a74f53c42319d45bd51d087ba713a4d164745bb96f45e2a2a8b1c0847",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/qd_arrayant.m",
+      "original_sha256": "edfb2b6a74f53c42319d45bd51d087ba713a4d164745bb96f45e2a2a8b1c0847",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/rotate_pattern.m",
+      "bytes": 9621,
+      "sha256": "048c67364449dcbe94e1d9527f5ac6ef4f3033a2ced97e5ac6f727bd6a16b463",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/rotate_pattern.m",
+      "original_sha256": "048c67364449dcbe94e1d9527f5ac6ef4f3033a2ced97e5ac6f727bd6a16b463",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/set_grid.m",
+      "bytes": 5928,
+      "sha256": "a2e027d055bb9dd64e7e6edf8717339aab620be19fafe6bc77ef4b05bb88d717",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/set_grid.m",
+      "original_sha256": "a2e027d055bb9dd64e7e6edf8717339aab620be19fafe6bc77ef4b05bb88d717",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/single.m",
+      "bytes": 2103,
+      "sha256": "1153c13d0f364207bdfdfee55fb868a3d3f8c5f22b0d30f6646dbb70dba517dd",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/single.m",
+      "original_sha256": "1153c13d0f364207bdfdfee55fb868a3d3f8c5f22b0d30f6646dbb70dba517dd",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/sub_array.m",
+      "bytes": 2314,
+      "sha256": "468ea67b0e083d536606db00a56ba72210c5c8011c0a01b447567a48afce23f5",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/sub_array.m",
+      "original_sha256": "468ea67b0e083d536606db00a56ba72210c5c8011c0a01b447567a48afce23f5",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/visualize.m",
+      "bytes": 4626,
+      "sha256": "7db45f037a0659ffc660decf0419be359589b0609192bd3865a3f3b8d3a740a1",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/visualize.m",
+      "original_sha256": "7db45f037a0659ffc660decf0419be359589b0609192bd3865a3f3b8d3a740a1",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/wrap_grid.m",
+      "bytes": 5193,
+      "sha256": "94b6168689ed1391c6920468b4cbf18bd294cb025c57f4e5e81cf3e8502dbc61",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/wrap_grid.m",
+      "original_sha256": "94b6168689ed1391c6920468b4cbf18bd294cb025c57f4e5e81cf3e8502dbc61",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/xml_read.m",
+      "bytes": 19903,
+      "sha256": "855efce759efeb7210085899932ba1cf91ee731f0f43c3fc21cf7a4f62788ce7",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/xml_read.m",
+      "original_sha256": "855efce759efeb7210085899932ba1cf91ee731f0f43c3fc21cf7a4f62788ce7",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_arrayant/xml_write.m",
+      "bytes": 9785,
+      "sha256": "f0ca563760ac6047b64c8e1004916f8d75c867b1cdc464a43b6f2128dec3433d",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_arrayant/xml_write.m",
+      "original_sha256": "f0ca563760ac6047b64c8e1004916f8d75c867b1cdc464a43b6f2128dec3433d",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/add_paths.m",
+      "bytes": 21948,
+      "sha256": "43f6076ee769c3773168cf95c92986fc399e34a6dc8e0306e7a5b5456c5b621f",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/add_paths.m",
+      "original_sha256": "43f6076ee769c3773168cf95c92986fc399e34a6dc8e0306e7a5b5456c5b621f",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/add_sdc.m",
+      "bytes": 30683,
+      "sha256": "0f0fab1946f7db8bc238e376dcdca71e9ae62427cbf397fd46499608a5762c42",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/add_sdc.m",
+      "original_sha256": "0f0fab1946f7db8bc238e376dcdca71e9ae62427cbf397fd46499608a5762c42",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/call_private_fcn.m",
+      "bytes": 1124,
+      "sha256": "5f8b71eb3e44d134f17a49726ec2820b7ab0dc272888774615bb6c52975df567",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/call_private_fcn.m",
+      "original_sha256": "5f8b71eb3e44d134f17a49726ec2820b7ab0dc272888774615bb6c52975df567",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/check_dual_mobility.m",
+      "bytes": 17560,
+      "sha256": "f9ea808bbf5c9ccf0cc170273939a8d96fa93cab67305f16ade85490cb928ecc",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/check_dual_mobility.m",
+      "original_sha256": "f9ea808bbf5c9ccf0cc170273939a8d96fa93cab67305f16ade85490cb928ecc",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/check_los.m",
+      "bytes": 8306,
+      "sha256": "d5abf739c7ca4c72a523e819c7d6446ed9498172bfce47328ee77d1e9bc7dfb4",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/check_los.m",
+      "original_sha256": "d5abf739c7ca4c72a523e819c7d6446ed9498172bfce47328ee77d1e9bc7dfb4",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/copy.m",
+      "bytes": 7333,
+      "sha256": "c2f43c6f896b312d8589ce1eeee7f7e6ee7bfae5c3b78a53387a147c54cbffe1",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/copy.m",
+      "original_sha256": "c2f43c6f896b312d8589ce1eeee7f7e6ee7bfae5c3b78a53387a147c54cbffe1",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/gen_cdl_model.m",
+      "bytes": 28363,
+      "sha256": "c346db10f9742ebf6b4e36b5530b315f5fb650c256db92131461b04b86e47e97",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/gen_cdl_model.m",
+      "original_sha256": "c346db10f9742ebf6b4e36b5530b315f5fb650c256db92131461b04b86e47e97",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/gen_fbs_lbs.m",
+      "bytes": 12545,
+      "sha256": "cc16a205105116aea659c87b56859a11c589a438a84438c4d483ade76c8b6b79",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/gen_fbs_lbs.m",
+      "original_sha256": "cc16a205105116aea659c87b56859a11c589a438a84438c4d483ade76c8b6b79",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/gen_lsf_from_ssf.m",
+      "bytes": 8255,
+      "sha256": "b36899fe575a3502f65a9c0d71ac0215a4757a66fdf2c6ac011d9aba9c0894dd",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/gen_lsf_from_ssf.m",
+      "original_sha256": "b36899fe575a3502f65a9c0d71ac0215a4757a66fdf2c6ac011d9aba9c0894dd",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/gen_lsf_parameters.m",
+      "bytes": 14690,
+      "sha256": "1b00b2a4fed992842b1a283a9d1a9cf19987c8062fc6b82ddc4fc9a7b1b5c0a6",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/gen_lsf_parameters.m",
+      "original_sha256": "1b00b2a4fed992842b1a283a9d1a9cf19987c8062fc6b82ddc4fc9a7b1b5c0a6",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/gen_parameters.m",
+      "bytes": 6748,
+      "sha256": "5acd91759e710bdec770863fc475f7579f1cf25b683c1e8738adb229c106a2ce",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/gen_parameters.m",
+      "original_sha256": "5acd91759e710bdec770863fc475f7579f1cf25b683c1e8738adb229c106a2ce",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/gen_ssf_from_scatterers.m",
+      "bytes": 5988,
+      "sha256": "c6f796d47b193889c32cd2789e34f2f8d4445327993fa6c6f66f5edf851b198d",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/gen_ssf_from_scatterers.m",
+      "original_sha256": "c6f796d47b193889c32cd2789e34f2f8d4445327993fa6c6f66f5edf851b198d",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/gen_ssf_parameters.m",
+      "bytes": 54141,
+      "sha256": "1bd8038cfa083666ff528eb62a4215a07f07a0fe5aa4df065417cac0bbf1e8ca",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/gen_ssf_parameters.m",
+      "original_sha256": "1bd8038cfa083666ff528eb62a4215a07f07a0fe5aa4df065417cac0bbf1e8ca",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/get_angles.m",
+      "bytes": 2390,
+      "sha256": "500852ea7dbf7b3b2baeddd3bb9562bc791718011b2561037ee8e520223784b9",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/get_angles.m",
+      "original_sha256": "500852ea7dbf7b3b2baeddd3bb9562bc791718011b2561037ee8e520223784b9",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/get_channels.m",
+      "bytes": 34988,
+      "sha256": "71f78f3e567cf9e9e38ede8af625dca4b0020040ae78ac37ea43102084809498",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/get_channels.m",
+      "original_sha256": "71f78f3e567cf9e9e38ede8af625dca4b0020040ae78ac37ea43102084809498",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/get_distances.m",
+      "bytes": 1454,
+      "sha256": "01b9af3ef9fd4ee68dfa8fcafc4f1f7efc20b1f794798fd21cb89d8d3c0d0b12",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/get_distances.m",
+      "original_sha256": "01b9af3ef9fd4ee68dfa8fcafc4f1f7efc20b1f794798fd21cb89d8d3c0d0b12",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/get_los_channels.m",
+      "bytes": 13328,
+      "sha256": "f71f752a3a60c1693ae0170c5a3bfcc7803c2c8547980f0ea3c7943ac09a1070",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/get_los_channels.m",
+      "original_sha256": "f71f752a3a60c1693ae0170c5a3bfcc7803c2c8547980f0ea3c7943ac09a1070",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/get_lsp_map.m",
+      "bytes": 2958,
+      "sha256": "3dccca6647ae919a333bf5d4620c8b7183710ea413cf1a32e9c4d6607f322076",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/get_lsp_map.m",
+      "original_sha256": "3dccca6647ae919a333bf5d4620c8b7183710ea413cf1a32e9c4d6607f322076",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/get_pl.m",
+      "bytes": 20946,
+      "sha256": "e18f7cca8ac0d43f748d778b57d20f8530b8a159f2e94c81d30f320fe2ab0fcb",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/get_pl.m",
+      "original_sha256": "e18f7cca8ac0d43f748d778b57d20f8530b8a159f2e94c81d30f320fe2ab0fcb",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/get_sf_profile.m",
+      "bytes": 4456,
+      "sha256": "feda18edc2bfe7b12ae60985da153fe2296514f42fa6ccc13c8945b6f379660e",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/get_sf_profile.m",
+      "original_sha256": "feda18edc2bfe7b12ae60985da153fe2296514f42fa6ccc13c8945b6f379660e",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/init_sos.m",
+      "bytes": 10997,
+      "sha256": "48c6f9c57d01a0ebdb0aa4f3479bff28d18ca97d79791ad7ed55f669848e47da",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/init_sos.m",
+      "original_sha256": "48c6f9c57d01a0ebdb0aa4f3479bff28d18ca97d79791ad7ed55f669848e47da",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/private/check_scenario_parameter_table.m",
+      "bytes": 4467,
+      "sha256": "71c1d8aa03e3c3ea6dbe30dc4d7aeb40931b3b8f1737f0fe2dc4deb102e3c252",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/private/check_scenario_parameter_table.m",
+      "original_sha256": "71c1d8aa03e3c3ea6dbe30dc4d7aeb40931b3b8f1737f0fe2dc4deb102e3c252",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/private/clst_avg.m",
+      "bytes": 1942,
+      "sha256": "ae93002f607bb544da683a4bf171242b50246ec4eeba5b6cb310ce7c4b48a9c2",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/private/clst_avg.m",
+      "original_sha256": "ae93002f607bb544da683a4bf171242b50246ec4eeba5b6cb310ce7c4b48a9c2",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/private/clst_expand.m",
+      "bytes": 1917,
+      "sha256": "2087c90ab0e5f7e9c9a11effee66eb1194f5be90303926d7a556ecb7bc38a280",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/private/clst_expand.m",
+      "original_sha256": "2087c90ab0e5f7e9c9a11effee66eb1194f5be90303926d7a556ecb7bc38a280",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/private/clst_extract.m",
+      "bytes": 1422,
+      "sha256": "b0db54f5393e9813713b27d5815feb00972a3760ccdaaa1f2e7482bd03ff3e76",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/private/clst_extract.m",
+      "original_sha256": "b0db54f5393e9813713b27d5815feb00972a3760ccdaaa1f2e7482bd03ff3e76",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/private/get_subpath_angles.m",
+      "bytes": 5703,
+      "sha256": "a2e74dadd722662d13e882801490ba4ee85d8c809810d0ea53e55b37826f5855",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/private/get_subpath_angles.m",
+      "original_sha256": "a2e74dadd722662d13e882801490ba4ee85d8c809810d0ea53e55b37826f5855",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/private/init_progress_dots.m",
+      "bytes": 1542,
+      "sha256": "2bf1386afe0f0c9ddd96f55574ff4165add9fbaafb5cbfbe153575fd773985d1",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/private/init_progress_dots.m",
+      "original_sha256": "2bf1386afe0f0c9ddd96f55574ff4165add9fbaafb5cbfbe153575fd773985d1",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/private/rotate_sphere.m",
+      "bytes": 3222,
+      "sha256": "42956a87b26ceb5907128434c79d6747ec411811ced7e10b6e8b1f8b5c325261",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/private/rotate_sphere.m",
+      "original_sha256": "42956a87b26ceb5907128434c79d6747ec411811ced7e10b6e8b1f8b5c325261",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/private/set_scenario_table.m",
+      "bytes": 17950,
+      "sha256": "3b6a524233d7bd51e057da57191efb21da4954a8927fb7af8230837c94b8f66b",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/private/set_scenario_table.m",
+      "original_sha256": "3b6a524233d7bd51e057da57191efb21da4954a8927fb7af8230837c94b8f66b",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/private/solve_cos_theorem.m",
+      "bytes": 2275,
+      "sha256": "5f57bc7dede97781a74a3bfffd2c38752198c034035feb6375384f1e71721fe2",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/private/solve_cos_theorem.m",
+      "original_sha256": "5f57bc7dede97781a74a3bfffd2c38752198c034035feb6375384f1e71721fe2",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/private/solve_multi_bounce_opti.m",
+      "bytes": 8377,
+      "sha256": "1b63cab09b0c4e4cd16bdbbb914834495d69d984103d67b59cf97e41a6ba8821",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/private/solve_multi_bounce_opti.m",
+      "original_sha256": "1b63cab09b0c4e4cd16bdbbb914834495d69d984103d67b59cf97e41a6ba8821",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/private/update_drifting.m",
+      "bytes": 10170,
+      "sha256": "1f6717430f03871852a1468430ca56346e542723afab31524b2a72bc710c7e6a",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/private/update_drifting.m",
+      "original_sha256": "1f6717430f03871852a1468430ca56346e542723afab31524b2a72bc710c7e6a",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/qd_builder.m",
+      "bytes": 20623,
+      "sha256": "5b7ce149961dd6958cac4b353cf1a1950446e4e40aaa219096b96c472813a334",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/qd_builder.m",
+      "original_sha256": "5b7ce149961dd6958cac4b353cf1a1950446e4e40aaa219096b96c472813a334",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/split_multi_freq.m",
+      "bytes": 10405,
+      "sha256": "11549368a5e9a1da9f9ab9a7d38c1a56e8490260d992a148c18ff5986c6a82c5",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/split_multi_freq.m",
+      "original_sha256": "11549368a5e9a1da9f9ab9a7d38c1a56e8490260d992a148c18ff5986c6a82c5",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/split_rx.m",
+      "bytes": 6065,
+      "sha256": "8980be6fa11ecd6b6d0e431f4313022a1762950306f4fd58b315dd619fb574f4",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/split_rx.m",
+      "original_sha256": "8980be6fa11ecd6b6d0e431f4313022a1762950306f4fd58b315dd619fb574f4",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/supported_scenarios.m",
+      "bytes": 3832,
+      "sha256": "0d6dd28d1df6a2c82f496075d27094d9cc48be51bd1e12b01fdb1be7b1765efb",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/supported_scenarios.m",
+      "original_sha256": "0d6dd28d1df6a2c82f496075d27094d9cc48be51bd1e12b01fdb1be7b1765efb",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/visualize_clusters.m",
+      "bytes": 10976,
+      "sha256": "811833d69b1e51184ffc05d0822407b4b37c4dea59185d360cdcd1c98b7fe6b0",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/visualize_clusters.m",
+      "original_sha256": "811833d69b1e51184ffc05d0822407b4b37c4dea59185d360cdcd1c98b7fe6b0",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_builder/write_conf_file.m",
+      "bytes": 46499,
+      "sha256": "156f7fc63208f78871346282776c182f63a3cdfca65334735048df1b4d038c8e",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_builder/write_conf_file.m",
+      "original_sha256": "156f7fc63208f78871346282776c182f63a3cdfca65334735048df1b4d038c8e",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_channel/call_private_fcn.m",
+      "bytes": 1124,
+      "sha256": "5f8b71eb3e44d134f17a49726ec2820b7ab0dc272888774615bb6c52975df567",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_channel/call_private_fcn.m",
+      "original_sha256": "5f8b71eb3e44d134f17a49726ec2820b7ab0dc272888774615bb6c52975df567",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_channel/combine_tx_rx.m",
+      "bytes": 7099,
+      "sha256": "024b1c15d6e277acb87bd68d6829183f59f90a1ec70df4446db20d67f01ca79a",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_channel/combine_tx_rx.m",
+      "original_sha256": "024b1c15d6e277acb87bd68d6829183f59f90a1ec70df4446db20d67f01ca79a",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_channel/copy.m",
+      "bytes": 2498,
+      "sha256": "2a578ae18ff425225e909e67e84f7ff33b03833c81300f05ab9f9aedba5bf767",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_channel/copy.m",
+      "original_sha256": "2a578ae18ff425225e909e67e84f7ff33b03833c81300f05ab9f9aedba5bf767",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_channel/fr.m",
+      "bytes": 6247,
+      "sha256": "ceae1f3ee4944c0c8e644f06c95395f88d7adb8f3878a6caa97b8e4347b16ddc",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_channel/fr.m",
+      "original_sha256": "ceae1f3ee4944c0c8e644f06c95395f88d7adb8f3878a6caa97b8e4347b16ddc",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_channel/interpolate.m",
+      "bytes": 11698,
+      "sha256": "2ed03cd4d90bfa106a279c48a440a8629b5c0af8ba0f31b5cc13d5b9382a6449",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_channel/interpolate.m",
+      "original_sha256": "2ed03cd4d90bfa106a279c48a440a8629b5c0af8ba0f31b5cc13d5b9382a6449",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_channel/mat_load.m",
+      "bytes": 13768,
+      "sha256": "f7045143369977c95e2dbdd8478b8675da12090558bf3192babc61a691139e98",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_channel/mat_load.m",
+      "original_sha256": "f7045143369977c95e2dbdd8478b8675da12090558bf3192babc61a691139e98",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_channel/mat_save.m",
+      "bytes": 5393,
+      "sha256": "cf67f7f5d69b51d880e7c4d95ab188d16b6cc7d5b2d5191307a026115c98a895",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_channel/mat_save.m",
+      "original_sha256": "cf67f7f5d69b51d880e7c4d95ab188d16b6cc7d5b2d5191307a026115c98a895",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_channel/merge.m",
+      "bytes": 13170,
+      "sha256": "91ddc18e10693079c829447e3d811a6dad82bc5dce3d033eebf912051d334f95",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_channel/merge.m",
+      "original_sha256": "91ddc18e10693079c829447e3d811a6dad82bc5dce3d033eebf912051d334f95",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_channel/private/find_overlapping_segment.m",
+      "bytes": 2240,
+      "sha256": "9f013cd54d49887dd9e4b8dda473e463f7c0e75c4cab5a0a546d5e01434bf0d4",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_channel/private/find_overlapping_segment.m",
+      "original_sha256": "9f013cd54d49887dd9e4b8dda473e463f7c0e75c4cab5a0a546d5e01434bf0d4",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_channel/private/find_overlapping_snapshots.m",
+      "bytes": 4073,
+      "sha256": "45b9bd4e1e5f05cfffa6c626b3d5fd1263b8a884711720e36a94500e578900f7",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_channel/private/find_overlapping_snapshots.m",
+      "original_sha256": "45b9bd4e1e5f05cfffa6c626b3d5fd1263b8a884711720e36a94500e578900f7",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_channel/private/init_path_indices.m",
+      "bytes": 2051,
+      "sha256": "0850cbf0ef3c743addea5f18bc44211ad0e4603a90a83622e113baca46832645",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_channel/private/init_path_indices.m",
+      "original_sha256": "0850cbf0ef3c743addea5f18bc44211ad0e4603a90a83622e113baca46832645",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_channel/private/init_progress_dots.m",
+      "bytes": 1545,
+      "sha256": "c679c6996a8c3ad44a56d96294dfd13b0e4e6399b943c665ba335db0be59c8a9",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_channel/private/init_progress_dots.m",
+      "original_sha256": "c679c6996a8c3ad44a56d96294dfd13b0e4e6399b943c665ba335db0be59c8a9",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_channel/private/merge_coeff.m",
+      "bytes": 10161,
+      "sha256": "08aa4a689c94d74ce81f0692e09cf068b77ea5f57d5b134ee233302c6b1f3e11",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_channel/private/merge_coeff.m",
+      "original_sha256": "08aa4a689c94d74ce81f0692e09cf068b77ea5f57d5b134ee233302c6b1f3e11",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_channel/private/merging_avg_ds.m",
+      "bytes": 1512,
+      "sha256": "10444da4dbd684e357d6d5358d70a0a318b78667d3dd525751b89382ccd45d68",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_channel/private/merging_avg_ds.m",
+      "original_sha256": "10444da4dbd684e357d6d5358d70a0a318b78667d3dd525751b89382ccd45d68",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_channel/private/merging_cost_fcn.m",
+      "bytes": 4192,
+      "sha256": "b22aa55cb50b01b28515c44d2b430cfc322d5d559d2457062944a154ee16543e",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_channel/private/merging_cost_fcn.m",
+      "original_sha256": "b22aa55cb50b01b28515c44d2b430cfc322d5d559d2457062944a154ee16543e",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_channel/private/parse_channel_names.m",
+      "bytes": 7102,
+      "sha256": "cf386a75e13670eaf38ea73c670ef2cd07947a2ece743c7199f3eaf7fbefab2b",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_channel/private/parse_channel_names.m",
+      "original_sha256": "cf386a75e13670eaf38ea73c670ef2cd07947a2ece743c7199f3eaf7fbefab2b",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_channel/qd_channel.m",
+      "bytes": 14911,
+      "sha256": "b5de2c32cf0443b766bd5acc2b018412b296d6dbbcc8d06625992c28551bef65",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_channel/qd_channel.m",
+      "original_sha256": "b5de2c32cf0443b766bd5acc2b018412b296d6dbbcc8d06625992c28551bef65",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_channel/quantize_delays.m",
+      "bytes": 15124,
+      "sha256": "fb495cf5e49a03f38d73e01c2c7f4ea159664b60baeac4fea778ef51b1d39c62",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_channel/quantize_delays.m",
+      "original_sha256": "fb495cf5e49a03f38d73e01c2c7f4ea159664b60baeac4fea778ef51b1d39c62",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_channel/split_rx.m",
+      "bytes": 5944,
+      "sha256": "b9ed67f23552783492d415f25fec58cbf808b839f286e666d099ed3f8d748be7",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_channel/split_rx.m",
+      "original_sha256": "b9ed67f23552783492d415f25fec58cbf808b839f286e666d099ed3f8d748be7",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_channel/split_snap.m",
+      "bytes": 5054,
+      "sha256": "e918aea853a2d06c7ea4f1d7b7d4630c5185ec2d831658f2f2f8b52a5c79e375",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_channel/split_snap.m",
+      "original_sha256": "e918aea853a2d06c7ea4f1d7b7d4630c5185ec2d831658f2f2f8b52a5c79e375",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_channel/split_tx.m",
+      "bytes": 6142,
+      "sha256": "d9131a9064ee9fab64542d2e23decfcd839a33a57a5fd15880b1cbf84c4720fa",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_channel/split_tx.m",
+      "original_sha256": "d9131a9064ee9fab64542d2e23decfcd839a33a57a5fd15880b1cbf84c4720fa",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_channel/swap_tx_rx.m",
+      "bytes": 5038,
+      "sha256": "dfe9fd985bd57b56bd8dc04e90a9d9f97a7e1a48f41b9639a25251e0fa23140b",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_channel/swap_tx_rx.m",
+      "original_sha256": "dfe9fd985bd57b56bd8dc04e90a9d9f97a7e1a48f41b9639a25251e0fa23140b",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_layout/call_private_fcn.m",
+      "bytes": 1115,
+      "sha256": "38c19208e6012f748a8ee44207a4ecb85667404625667d24861020e6a32d466d",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_layout/call_private_fcn.m",
+      "original_sha256": "38c19208e6012f748a8ee44207a4ecb85667404625667d24861020e6a32d466d",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_layout/copy.m",
+      "bytes": 2736,
+      "sha256": "420833e63f7d61f779c22c20733bc18ae1763700eca4cf9c64f6792fe0b9a09a",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_layout/copy.m",
+      "original_sha256": "420833e63f7d61f779c22c20733bc18ae1763700eca4cf9c64f6792fe0b9a09a",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_layout/gen_o2i_loss.m",
+      "bytes": 10143,
+      "sha256": "09126c6bb73ccfc6c65fbd5c1e720542c0a2ba29d69f0363a56f4e1bffb0f082",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_layout/gen_o2i_loss.m",
+      "original_sha256": "09126c6bb73ccfc6c65fbd5c1e720542c0a2ba29d69f0363a56f4e1bffb0f082",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_layout/generate.m",
+      "bytes": 7311,
+      "sha256": "f3d1fe77c40a60bce1febfa6606de890e539073f433e56a5db8efa57e862d5b6",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_layout/generate.m",
+      "original_sha256": "f3d1fe77c40a60bce1febfa6606de890e539073f433e56a5db8efa57e862d5b6",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_layout/get_channels.m",
+      "bytes": 20087,
+      "sha256": "015a84da610276fec2cc393396757bf59926d63d96b8be0d04f5fd25cbd74765",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_layout/get_channels.m",
+      "original_sha256": "015a84da610276fec2cc393396757bf59926d63d96b8be0d04f5fd25cbd74765",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_layout/get_channels_seg.m",
+      "bytes": 16951,
+      "sha256": "4b228d66c8b01e7654e13c1f175dc66f84fd497cb6560b96839a7c22ac5eaec1",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_layout/get_channels_seg.m",
+      "original_sha256": "4b228d66c8b01e7654e13c1f175dc66f84fd497cb6560b96839a7c22ac5eaec1",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_layout/init_builder.m",
+      "bytes": 7032,
+      "sha256": "e8afc09ebca0d414f276defd27a31b9c300c616d726d3432a7926ab81c36ada6",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_layout/init_builder.m",
+      "original_sha256": "e8afc09ebca0d414f276defd27a31b9c300c616d726d3432a7926ab81c36ada6",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_layout/kml2layout.m",
+      "bytes": 22034,
+      "sha256": "a703906cc51dd9e353de04ac676e527c27a53dcae0983c94008386950d671029",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_layout/kml2layout.m",
+      "original_sha256": "a703906cc51dd9e353de04ac676e527c27a53dcae0983c94008386950d671029",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_layout/layout2kml.m",
+      "bytes": 25759,
+      "sha256": "258882962eba72254ee3c819a1cc3ec8246a1226076a5c25c802d29e3bcb7ef0",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_layout/layout2kml.m",
+      "original_sha256": "258882962eba72254ee3c819a1cc3ec8246a1226076a5c25c802d29e3bcb7ef0",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_layout/power_map.m",
+      "bytes": 11040,
+      "sha256": "bf7918b151bd50d1837b5b32632b47c0c0dba5fed43e76a8d17ec36aa54b4e5e",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_layout/power_map.m",
+      "original_sha256": "bf7918b151bd50d1837b5b32632b47c0c0dba5fed43e76a8d17ec36aa54b4e5e",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_layout/private/ctrans.m",
+      "bytes": 1087,
+      "sha256": "4c4f9e90465b47b58fed6cabfd26dcafd9449640305d19a8c459f726cba8b81b",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_layout/private/ctrans.m",
+      "original_sha256": "4c4f9e90465b47b58fed6cabfd26dcafd9449640305d19a8c459f726cba8b81b",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_layout/private/get_channels_seg_unmerged.m",
+      "bytes": 3293,
+      "sha256": "7be273bd151afd298fb0c69b178574fed2bce52dde2b4533d5f5522fcfba8491",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_layout/private/get_channels_seg_unmerged.m",
+      "original_sha256": "7be273bd151afd298fb0c69b178574fed2bce52dde2b4533d5f5522fcfba8491",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_layout/private/get_wgs84_trans.m",
+      "bytes": 4045,
+      "sha256": "b4691b1187fd22c3d25dfe6431ba2314703242c187acc3b36fa0524d28877387",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_layout/private/get_wgs84_trans.m",
+      "original_sha256": "b4691b1187fd22c3d25dfe6431ba2314703242c187acc3b36fa0524d28877387",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_layout/private/kmlread.m",
+      "bytes": 11329,
+      "sha256": "929c7e49b8bd3a2b6f39816263a4926373b239a11ee4afc2429b72b21c2df9e7",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_layout/private/kmlread.m",
+      "original_sha256": "929c7e49b8bd3a2b6f39816263a4926373b239a11ee4afc2429b72b21c2df9e7",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_layout/private/parse_positions.m",
+      "bytes": 12791,
+      "sha256": "cb2b8aa1ded300c97e11f7e4a184040483abfa40782f917838edf1de41aee5dd",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_layout/private/parse_positions.m",
+      "original_sha256": "cb2b8aa1ded300c97e11f7e4a184040483abfa40782f917838edf1de41aee5dd",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_layout/private/trans_global2ue.m",
+      "bytes": 2863,
+      "sha256": "95b68a926b9906191a42a2836a1c034035e7e0fbdd30926bb0b2038e2517c467",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_layout/private/trans_global2ue.m",
+      "original_sha256": "95b68a926b9906191a42a2836a1c034035e7e0fbdd30926bb0b2038e2517c467",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_layout/private/trans_ue2global.m",
+      "bytes": 2651,
+      "sha256": "e148bc82e9dd76259fc0e76a518a9b5133a00895b050158863a13fb2c8a18c74",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_layout/private/trans_ue2global.m",
+      "original_sha256": "e148bc82e9dd76259fc0e76a518a9b5133a00895b050158863a13fb2c8a18c74",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_layout/qd_layout.m",
+      "bytes": 19770,
+      "sha256": "2eea636f90967793914ca0d2b324227049eedc6d8f0111648cb802f490c5aa13",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_layout/qd_layout.m",
+      "original_sha256": "2eea636f90967793914ca0d2b324227049eedc6d8f0111648cb802f490c5aa13",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_layout/randomize_rx_positions.m",
+      "bytes": 7055,
+      "sha256": "21f8c64428839cef28f33332e185ab133168fa733a82fdc9165f7e49c7bd5cb4",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_layout/randomize_rx_positions.m",
+      "original_sha256": "21f8c64428839cef28f33332e185ab133168fa733a82fdc9165f7e49c7bd5cb4",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_layout/set_pairing.m",
+      "bytes": 8910,
+      "sha256": "71a46c1bf10236374f1da78a4d4202667b78455940666af9934ae5fb88202207",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_layout/set_pairing.m",
+      "original_sha256": "71a46c1bf10236374f1da78a4d4202667b78455940666af9934ae5fb88202207",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_layout/set_satellite_pos.m",
+      "bytes": 4149,
+      "sha256": "77c645d99a1c60204d541d8d087fc83ad7815fe5b6504bcc13a801842a9eacd0",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_layout/set_satellite_pos.m",
+      "original_sha256": "77c645d99a1c60204d541d8d087fc83ad7815fe5b6504bcc13a801842a9eacd0",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_layout/set_scenario.m",
+      "bytes": 31426,
+      "sha256": "45c95e03f21b452565977d450b0e9f3135368801de1709c5ad8b94986dd48d48",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_layout/set_scenario.m",
+      "original_sha256": "45c95e03f21b452565977d450b0e9f3135368801de1709c5ad8b94986dd48d48",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_layout/visualize.m",
+      "bytes": 9682,
+      "sha256": "b4ee121d2561823b800c55f8da11c718b8f25431430d5b287240d1c16c2ff34c",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_layout/visualize.m",
+      "original_sha256": "b4ee121d2561823b800c55f8da11c718b8f25431430d5b287240d1c16c2ff34c",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_satellite/generate.m",
+      "bytes": 3993,
+      "sha256": "3ed8fde7046f28cf53dce70a81887b1c421b6755338d01730cd446748f01be26",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_satellite/generate.m",
+      "original_sha256": "3ed8fde7046f28cf53dce70a81887b1c421b6755338d01730cd446748f01be26",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_satellite/init_tracks.m",
+      "bytes": 4955,
+      "sha256": "a7dd553398a99fcb2e59991d0fa6c76248684ce599b22503d9356da7b7407116",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_satellite/init_tracks.m",
+      "original_sha256": "a7dd553398a99fcb2e59991d0fa6c76248684ce599b22503d9356da7b7407116",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_satellite/orbit_predictor.m",
+      "bytes": 8510,
+      "sha256": "b82d69056ec8e4a4b6a63114dbb4db8967f191a371937c7f4695e9a2347b1ab3",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_satellite/orbit_predictor.m",
+      "original_sha256": "b82d69056ec8e4a4b6a63114dbb4db8967f191a371937c7f4695e9a2347b1ab3",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_satellite/private/gen_constellation_custom.m",
+      "bytes": 2216,
+      "sha256": "42063b23880170d25c9704be0e350f1eaa2342576d5cbd059976102a2b3c3336",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_satellite/private/gen_constellation_custom.m",
+      "original_sha256": "42063b23880170d25c9704be0e350f1eaa2342576d5cbd059976102a2b3c3336",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_satellite/private/gen_constellation_gso.m",
+      "bytes": 1626,
+      "sha256": "b058867592f80ca7161deea4cb40aac94af0372e91b7f90ae5d5314ec5305f71",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_satellite/private/gen_constellation_gso.m",
+      "original_sha256": "b058867592f80ca7161deea4cb40aac94af0372e91b7f90ae5d5314ec5305f71",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_satellite/private/gen_constellation_walker_delta.m",
+      "bytes": 3207,
+      "sha256": "a04348b8fc1f6a2b458b0772756f794d5d11058af9c7747d49f735499684f329",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_satellite/private/gen_constellation_walker_delta.m",
+      "original_sha256": "a04348b8fc1f6a2b458b0772756f794d5d11058af9c7747d49f735499684f329",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_satellite/qd_satellite.m",
+      "bytes": 20198,
+      "sha256": "063b316389ad608b79e6b9e69ecc816e555f106ecaf2a4121f530982b12119c4",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_satellite/qd_satellite.m",
+      "original_sha256": "063b316389ad608b79e6b9e69ecc816e555f106ecaf2a4121f530982b12119c4",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_satellite/read_tle.m",
+      "bytes": 9127,
+      "sha256": "7ec5cf71f01f46e38a8c21b8f920493b4075f732fabf4eb632575ce7a65524d7",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_satellite/read_tle.m",
+      "original_sha256": "7ec5cf71f01f46e38a8c21b8f920493b4075f732fabf4eb632575ce7a65524d7",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_satellite/ue_perspective.m",
+      "bytes": 6688,
+      "sha256": "68235ad59377bbc0c7295f5d9e1703b884c8a5463026a4d1a8134024523a125f",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_satellite/ue_perspective.m",
+      "original_sha256": "68235ad59377bbc0c7295f5d9e1703b884c8a5463026a4d1a8134024523a125f",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_satellite/visualize_earth.m",
+      "bytes": 4865,
+      "sha256": "0a6fd4c016ca47725ebab6223bba06797e58084023f5c30a36dddf180f79959b",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_satellite/visualize_earth.m",
+      "original_sha256": "0a6fd4c016ca47725ebab6223bba06797e58084023f5c30a36dddf180f79959b",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_satellite/visualize_lonlat.m",
+      "bytes": 5105,
+      "sha256": "5e3bc176c0be05676a5068ed9988b11910fb10d2acad5d4a4966a571de5dbc08",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_satellite/visualize_lonlat.m",
+      "original_sha256": "5e3bc176c0be05676a5068ed9988b11910fb10d2acad5d4a4966a571de5dbc08",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_satellite/visualize_orbit.m",
+      "bytes": 3132,
+      "sha256": "9fd344b0593170bfa0d7ea46019e88ba3a6aa62384c1abded209eab34348e108",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_satellite/visualize_orbit.m",
+      "original_sha256": "9fd344b0593170bfa0d7ea46019e88ba3a6aa62384c1abded209eab34348e108",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_simulation_parameters/checksum.m",
+      "bytes": 1479,
+      "sha256": "ab69c0c3b58a4d9b529db4f359f48345aaa19e9d4b4739eab9c9073fe34d6030",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_simulation_parameters/checksum.m",
+      "original_sha256": "ab69c0c3b58a4d9b529db4f359f48345aaa19e9d4b4739eab9c9073fe34d6030",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_simulation_parameters/copy.m",
+      "bytes": 2568,
+      "sha256": "193906ffa921dbe021362be58f317ec52fbd75f7721b2154e07a75b24424b08f",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_simulation_parameters/copy.m",
+      "original_sha256": "193906ffa921dbe021362be58f317ec52fbd75f7721b2154e07a75b24424b08f",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_simulation_parameters/has_gpu.m",
+      "bytes": 1198,
+      "sha256": "e00021b645c534aa5e4d438e92c0ca876e57f570da440aab20245d6614c4bd39",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_simulation_parameters/has_gpu.m",
+      "original_sha256": "e00021b645c534aa5e4d438e92c0ca876e57f570da440aab20245d6614c4bd39",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_simulation_parameters/qd_simulation_parameters.m",
+      "bytes": 9463,
+      "sha256": "0ab89073d17e236aecfae94ba12ade690ba9caa955fa168bb396ccacd9af7317",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_simulation_parameters/qd_simulation_parameters.m",
+      "original_sha256": "0ab89073d17e236aecfae94ba12ade690ba9caa955fa168bb396ccacd9af7317",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_simulation_parameters/set_speed.m",
+      "bytes": 1275,
+      "sha256": "c320a135961c614cac7bab31a9164041358262698acc6963a8c4bf29c6acb172",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_simulation_parameters/set_speed.m",
+      "original_sha256": "c320a135961c614cac7bab31a9164041358262698acc6963a8c4bf29c6acb172",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_sos/acf_2d.m",
+      "bytes": 1736,
+      "sha256": "ebd9d2c29f3a77a2f879225fc6e41cd7ddb74b27fa35a21e5933f5b2e0240ccb",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_sos/acf_2d.m",
+      "original_sha256": "ebd9d2c29f3a77a2f879225fc6e41cd7ddb74b27fa35a21e5933f5b2e0240ccb",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_sos/acf_approx.m",
+      "bytes": 2771,
+      "sha256": "2c5626a9a036f47a6b58c869a9f8084e595c63b330a5d383452d46451b5f63e0",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_sos/acf_approx.m",
+      "original_sha256": "2c5626a9a036f47a6b58c869a9f8084e595c63b330a5d383452d46451b5f63e0",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_sos/acf_estimate.m",
+      "bytes": 4359,
+      "sha256": "22eaa18572f8ad6e0f6ceea7c6d110214c58a6b3ce836b1775a0d86379fa75db",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_sos/acf_estimate.m",
+      "original_sha256": "22eaa18572f8ad6e0f6ceea7c6d110214c58a6b3ce836b1775a0d86379fa75db",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_sos/acfi.m",
+      "bytes": 1472,
+      "sha256": "dd69cdb0b07e05b505dd63bed550ab044cbc6ef4727f104000050cd1f6664b0c",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_sos/acfi.m",
+      "original_sha256": "dd69cdb0b07e05b505dd63bed550ab044cbc6ef4727f104000050cd1f6664b0c",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_sos/calc_mse.m",
+      "bytes": 4039,
+      "sha256": "d21c61a4708b432eec825575acda5772c7e2b8a06c883ee8f54935204e72a0b2",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_sos/calc_mse.m",
+      "original_sha256": "d21c61a4708b432eec825575acda5772c7e2b8a06c883ee8f54935204e72a0b2",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_sos/copy.m",
+      "bytes": 2321,
+      "sha256": "777fedcf7115e1e559c5328cd714ede1058a6acb98799df683525ee8d805acca",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_sos/copy.m",
+      "original_sha256": "777fedcf7115e1e559c5328cd714ede1058a6acb98799df683525ee8d805acca",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_sos/generate.m",
+      "bytes": 9900,
+      "sha256": "5bcb26e27936698f6f293d44298d5e74ad67d1398b30989896ddf17da3e364ee",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_sos/generate.m",
+      "original_sha256": "5bcb26e27936698f6f293d44298d5e74ad67d1398b30989896ddf17da3e364ee",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_sos/init.m",
+      "bytes": 1926,
+      "sha256": "f989da17a635313d49265daedaa64c216d0fe80eca99c3438a2cda6346088276",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_sos/init.m",
+      "original_sha256": "f989da17a635313d49265daedaa64c216d0fe80eca99c3438a2cda6346088276",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_sos/load.m",
+      "bytes": 1806,
+      "sha256": "5eced7fc8b0bbed6bf6209b531ef1029915533b9ab8fbfb6c58196bc9be3d243",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_sos/load.m",
+      "original_sha256": "5eced7fc8b0bbed6bf6209b531ef1029915533b9ab8fbfb6c58196bc9be3d243",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_sos/map.m",
+      "bytes": 2182,
+      "sha256": "287a2fbb68f9ad9de6181ac292f626cec83c87d11d887427ef140b200c5c5a2b",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_sos/map.m",
+      "original_sha256": "287a2fbb68f9ad9de6181ac292f626cec83c87d11d887427ef140b200c5c5a2b",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_sos/private/suosi_iteration_step.m",
+      "bytes": 2145,
+      "sha256": "95c14f92fc6cd0c5847b5b5e18c649562a3a0b255d20f064cacb7a9fa0de8a02",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_sos/private/suosi_iteration_step.m",
+      "original_sha256": "95c14f92fc6cd0c5847b5b5e18c649562a3a0b255d20f064cacb7a9fa0de8a02",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_sos/qd_sos.m",
+      "bytes": 5730,
+      "sha256": "4f08d571332627ffcbc0dcbdab6685a0d079ac3beb49187bced2a39bec7fffcd",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_sos/qd_sos.m",
+      "original_sha256": "4f08d571332627ffcbc0dcbdab6685a0d079ac3beb49187bced2a39bec7fffcd",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_sos/rand.m",
+      "bytes": 2171,
+      "sha256": "d67426726457e8a1929ae52dec24eb12a62997a7c8c8d0ef64c37b983d4af88d",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_sos/rand.m",
+      "original_sha256": "d67426726457e8a1929ae52dec24eb12a62997a7c8c8d0ef64c37b983d4af88d",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_sos/randi.m",
+      "bytes": 2242,
+      "sha256": "e259947858313143e4022a2d9bb9dc14eb35d4fefc2be268f19280eb40b5a69d",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_sos/randi.m",
+      "original_sha256": "e259947858313143e4022a2d9bb9dc14eb35d4fefc2be268f19280eb40b5a69d",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_sos/randn.m",
+      "bytes": 2169,
+      "sha256": "5870a9e610e839191f19a8cd6cd67b6f7e32cd1e63aa297efe88c23f90841630",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_sos/randn.m",
+      "original_sha256": "5870a9e610e839191f19a8cd6cd67b6f7e32cd1e63aa297efe88c23f90841630",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_sos/remove_bias.m",
+      "bytes": 3503,
+      "sha256": "f047e518aeaaa9ebf408c05bc466c29cf9951a58cf3af461cd9daf1c8d855421",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_sos/remove_bias.m",
+      "original_sha256": "f047e518aeaaa9ebf408c05bc466c29cf9951a58cf3af461cd9daf1c8d855421",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_sos/save.m",
+      "bytes": 1653,
+      "sha256": "4a27801cc1af0b59b303d65e2d3be54e7d09754343ab0216b3779eff5a4db95b",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_sos/save.m",
+      "original_sha256": "4a27801cc1af0b59b303d65e2d3be54e7d09754343ab0216b3779eff5a4db95b",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_sos/set_acf.m",
+      "bytes": 185427,
+      "sha256": "1049bf00b53596af42509f6c2d325777a811461371a58a776551dba191a791ae",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_sos/set_acf.m",
+      "original_sha256": "1049bf00b53596af42509f6c2d325777a811461371a58a776551dba191a791ae",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_sos/val.m",
+      "bytes": 6457,
+      "sha256": "9c014c5ac6d3e015dafb419eaaa5aeef4ed4c77d32e09f129e34063ec267a83e",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_sos/val.m",
+      "original_sha256": "9c014c5ac6d3e015dafb419eaaa5aeef4ed4c77d32e09f129e34063ec267a83e",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_track/add_segment.m",
+      "bytes": 8853,
+      "sha256": "e5f2409631e3982d2900fbe5d92a62e04505188e76e14beb15fc6dceaefdf352",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_track/add_segment.m",
+      "original_sha256": "e5f2409631e3982d2900fbe5d92a62e04505188e76e14beb15fc6dceaefdf352",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_track/calc_orientation.m",
+      "bytes": 6249,
+      "sha256": "a52cdbf40e7c0a213b33edd8083f29d5052a212c5e4980148d1522f8cd93d5ad",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_track/calc_orientation.m",
+      "original_sha256": "a52cdbf40e7c0a213b33edd8083f29d5052a212c5e4980148d1522f8cd93d5ad",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_track/checksum.m",
+      "bytes": 2023,
+      "sha256": "9ae55833364cc2d5dac1b62d6d541c0ce60a31e86af2091e4ca5841a77824725",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_track/checksum.m",
+      "original_sha256": "9ae55833364cc2d5dac1b62d6d541c0ce60a31e86af2091e4ca5841a77824725",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_track/copy.m",
+      "bytes": 2529,
+      "sha256": "fc5722fe48cfd57a7e7bae7642fe411bb821a2bfa5d5845e3b8e1659a57fe8ea",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_track/copy.m",
+      "original_sha256": "fc5722fe48cfd57a7e7bae7642fe411bb821a2bfa5d5845e3b8e1659a57fe8ea",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_track/correct_overlap.m",
+      "bytes": 5344,
+      "sha256": "51acdb2072905ff7f064d324bb60f6892a31f1778f9bef815423826d4487f1a7",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_track/correct_overlap.m",
+      "original_sha256": "51acdb2072905ff7f064d324bb60f6892a31f1778f9bef815423826d4487f1a7",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_track/generate.m",
+      "bytes": 8744,
+      "sha256": "23cd1ee0d7807f627223658c772622139d44a089ea74c58bdec1ac1cb571cde0",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_track/generate.m",
+      "original_sha256": "23cd1ee0d7807f627223658c772622139d44a089ea74c58bdec1ac1cb571cde0",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_track/get_length.m",
+      "bytes": 1737,
+      "sha256": "5d279df61cbea99523e4329aff93b97f3bf4e3d117587ecac6dc2dff137cbd0f",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_track/get_length.m",
+      "original_sha256": "5d279df61cbea99523e4329aff93b97f3bf4e3d117587ecac6dc2dff137cbd0f",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_track/get_subtrack.m",
+      "bytes": 6930,
+      "sha256": "06471f86fbb64a7065b6b12a70d098c195e2453299a0fa3a1b0eb55e75a8568f",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_track/get_subtrack.m",
+      "original_sha256": "06471f86fbb64a7065b6b12a70d098c195e2453299a0fa3a1b0eb55e75a8568f",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_track/interpolate.m",
+      "bytes": 17097,
+      "sha256": "74521a7fe9c7874c54c261300329af6761f98bff8e1d1f0d33ad807f181082fa",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_track/interpolate.m",
+      "original_sha256": "74521a7fe9c7874c54c261300329af6761f98bff8e1d1f0d33ad807f181082fa",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_track/qd_track.m",
+      "bytes": 17918,
+      "sha256": "0053dc0bd35e6fab5a8152378e0d3c8e7da201592c8b160d84f316aa6a45cbd1",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_track/qd_track.m",
+      "original_sha256": "0053dc0bd35e6fab5a8152378e0d3c8e7da201592c8b160d84f316aa6a45cbd1",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_track/set_scenario.m",
+      "bytes": 7191,
+      "sha256": "85c1972139fc5a6608809462b09f4802e732b2621f3c1d38360fcdc217862dd2",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_track/set_scenario.m",
+      "original_sha256": "85c1972139fc5a6608809462b09f4802e732b2621f3c1d38360fcdc217862dd2",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_track/set_speed.m",
+      "bytes": 2357,
+      "sha256": "8ba8d669a2d3d0d58dd96d5bde9287057d49474ec1df5b24aff89608dd56db11",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_track/set_speed.m",
+      "original_sha256": "8ba8d669a2d3d0d58dd96d5bde9287057d49474ec1df5b24aff89608dd56db11",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/@qd_track/split_segment.m",
+      "bytes": 7318,
+      "sha256": "1d0fdcd1d3b2627bec38b4595e72ad7bac02543e8e7c8420cd6c8610408c9017",
+      "original_source_group": "source_snapshots/quadriga_src/@qd_track/split_segment.m",
+      "original_sha256": "1d0fdcd1d3b2627bec38b4595e72ad7bac02543e8e7c8420cd6c8610408c9017",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_37.885_Highway_LOS.conf",
+      "bytes": 6616,
+      "sha256": "f3151b58274c8ae9c21b8cfe2df7fb768b13124002a1d4481246c6c6f3659c8e",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_37.885_Highway_LOS.conf",
+      "original_sha256": "f3151b58274c8ae9c21b8cfe2df7fb768b13124002a1d4481246c6c6f3659c8e",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_37.885_Highway_NLOSv.conf",
+      "bytes": 6620,
+      "sha256": "58ee5b0ddbfb8d7091fd2f3e21a9d4b2b0cf9af72174785ddd6d4feea5fedb1f",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_37.885_Highway_NLOSv.conf",
+      "original_sha256": "58ee5b0ddbfb8d7091fd2f3e21a9d4b2b0cf9af72174785ddd6d4feea5fedb1f",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_37.885_Urban_LOS.conf",
+      "bytes": 7199,
+      "sha256": "6b86aca64dcd26fecfcdb09333f3baf5f8ec5f62d99d34ebb582372c50f0b7e4",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_37.885_Urban_LOS.conf",
+      "original_sha256": "6b86aca64dcd26fecfcdb09333f3baf5f8ec5f62d99d34ebb582372c50f0b7e4",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_37.885_Urban_NLOS.conf",
+      "bytes": 7149,
+      "sha256": "011d2055d828198fd2f9a0febd669eb45f478eb731c543bb9b8037e5e4696d5e",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_37.885_Urban_NLOS.conf",
+      "original_sha256": "011d2055d828198fd2f9a0febd669eb45f478eb731c543bb9b8037e5e4696d5e",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_37.885_Urban_NLOSv.conf",
+      "bytes": 7200,
+      "sha256": "36e9e96a22318520490a68dbe32b07eb9ab73b0236eefe93f945999e8f20e48a",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_37.885_Urban_NLOSv.conf",
+      "original_sha256": "36e9e96a22318520490a68dbe32b07eb9ab73b0236eefe93f945999e8f20e48a",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_38.901_Indoor_LOS.conf",
+      "bytes": 7684,
+      "sha256": "65a871f11d1b3a525e3a169cc7276b6ae6963139554c22b4b0c0d1529bf805a4",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_38.901_Indoor_LOS.conf",
+      "original_sha256": "65a871f11d1b3a525e3a169cc7276b6ae6963139554c22b4b0c0d1529bf805a4",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_38.901_Indoor_NLOS.conf",
+      "bytes": 8474,
+      "sha256": "5717d0071f2b6a9b6d4eea6467debae77c9ca56227f2ec7596fe222d28a3f8b4",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_38.901_Indoor_NLOS.conf",
+      "original_sha256": "5717d0071f2b6a9b6d4eea6467debae77c9ca56227f2ec7596fe222d28a3f8b4",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_38.901_InF_LOS.conf",
+      "bytes": 6013,
+      "sha256": "bd8dd3858726d72ee49580ad8e80e844bf0071d14e9c705e7dca841e7cead227",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_38.901_InF_LOS.conf",
+      "original_sha256": "bd8dd3858726d72ee49580ad8e80e844bf0071d14e9c705e7dca841e7cead227",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_38.901_InF_NLOS_DH.conf",
+      "bytes": 8928,
+      "sha256": "f1150486c0c037c93365464842be4beb57cee9470a28be129cc0659dcd0ab8f5",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_38.901_InF_NLOS_DH.conf",
+      "original_sha256": "f1150486c0c037c93365464842be4beb57cee9470a28be129cc0659dcd0ab8f5",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_38.901_InF_NLOS_DL.conf",
+      "bytes": 7923,
+      "sha256": "f657ae57de2561f8edb5617bd02294f4c06cf7c6f530165ec8563e2dca843e95",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_38.901_InF_NLOS_DL.conf",
+      "original_sha256": "f657ae57de2561f8edb5617bd02294f4c06cf7c6f530165ec8563e2dca843e95",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_38.901_InF_NLOS_SH.conf",
+      "bytes": 7857,
+      "sha256": "8a35c81807f784c8fa96a44cb9957e0ee6ef28f1b71f71b409a985c00c2edb0c",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_38.901_InF_NLOS_SH.conf",
+      "original_sha256": "8a35c81807f784c8fa96a44cb9957e0ee6ef28f1b71f71b409a985c00c2edb0c",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_38.901_InF_NLOS_SL.conf",
+      "bytes": 7874,
+      "sha256": "d08414d56f63d47864ed7c296bcfde6e97b8daa5889157b8acf3bce30875fb6b",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_38.901_InF_NLOS_SL.conf",
+      "original_sha256": "d08414d56f63d47864ed7c296bcfde6e97b8daa5889157b8acf3bce30875fb6b",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_38.901_RMa_LOS.conf",
+      "bytes": 7167,
+      "sha256": "1755262619162f70761239f1d11cef1ba16f791ef02c4572e6847d8fec04c862",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_38.901_RMa_LOS.conf",
+      "original_sha256": "1755262619162f70761239f1d11cef1ba16f791ef02c4572e6847d8fec04c862",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_38.901_RMa_LOS_O2I.conf",
+      "bytes": 6724,
+      "sha256": "5f406b81ce157efed30920dca12018657d1d2d362a9e10c93eb787d9d6e1a85a",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_38.901_RMa_LOS_O2I.conf",
+      "original_sha256": "5f406b81ce157efed30920dca12018657d1d2d362a9e10c93eb787d9d6e1a85a",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_38.901_RMa_NLOS.conf",
+      "bytes": 8339,
+      "sha256": "c19415b3bd856d15b6974de7b0205c39b54100056b036b6da697d1423921666d",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_38.901_RMa_NLOS.conf",
+      "original_sha256": "c19415b3bd856d15b6974de7b0205c39b54100056b036b6da697d1423921666d",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_38.901_RMa_NLOS_O2I.conf",
+      "bytes": 8001,
+      "sha256": "1abe258f5b85711dd96a28a75bcb651c6846cd8862ad9117baeb79891f0c7d20",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_38.901_RMa_NLOS_O2I.conf",
+      "original_sha256": "1abe258f5b85711dd96a28a75bcb651c6846cd8862ad9117baeb79891f0c7d20",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_38.901_UMa_LOS.conf",
+      "bytes": 7431,
+      "sha256": "c56b46e37df34a386b2cbf048fab6cd4af453ffd364510e357e8062e3a4fba9a",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_38.901_UMa_LOS.conf",
+      "original_sha256": "c56b46e37df34a386b2cbf048fab6cd4af453ffd364510e357e8062e3a4fba9a",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_38.901_UMa_LOS_O2I.conf",
+      "bytes": 6908,
+      "sha256": "4c91d430c8ea9a4a7931ff0a7892820ea76852056424d4bf6b33be73d1164e62",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_38.901_UMa_LOS_O2I.conf",
+      "original_sha256": "4c91d430c8ea9a4a7931ff0a7892820ea76852056424d4bf6b33be73d1164e62",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_38.901_UMa_NLOS.conf",
+      "bytes": 8390,
+      "sha256": "52dd4e521186c780599338d4e7fd13c3e7f143dfa8c484b8e48bdb3882b3b301",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_38.901_UMa_NLOS.conf",
+      "original_sha256": "52dd4e521186c780599338d4e7fd13c3e7f143dfa8c484b8e48bdb3882b3b301",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_38.901_UMa_NLOS_O2I.conf",
+      "bytes": 7791,
+      "sha256": "32f9f02c89a4449537374e81cd7a2b6dd71c7498661bbef1e89db5874cb696c8",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_38.901_UMa_NLOS_O2I.conf",
+      "original_sha256": "32f9f02c89a4449537374e81cd7a2b6dd71c7498661bbef1e89db5874cb696c8",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_38.901_UMi_LOS.conf",
+      "bytes": 8116,
+      "sha256": "4c19148c775782e5137c1932a1e6cac2aa3fa40a029b808779e446f62437c87d",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_38.901_UMi_LOS.conf",
+      "original_sha256": "4c19148c775782e5137c1932a1e6cac2aa3fa40a029b808779e446f62437c87d",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_38.901_UMi_LOS_GR.conf",
+      "bytes": 9148,
+      "sha256": "b98882ce2732ee4160f73a074c7d8edb74a283cc1b18638343d13224360d684e",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_38.901_UMi_LOS_GR.conf",
+      "original_sha256": "b98882ce2732ee4160f73a074c7d8edb74a283cc1b18638343d13224360d684e",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_38.901_UMi_LOS_O2I.conf",
+      "bytes": 6909,
+      "sha256": "7cb77d00e11aa96d8844071503953db44aabf484f1f598094fb680ccbfe0721a",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_38.901_UMi_LOS_O2I.conf",
+      "original_sha256": "7cb77d00e11aa96d8844071503953db44aabf484f1f598094fb680ccbfe0721a",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_38.901_UMi_NLOS.conf",
+      "bytes": 8944,
+      "sha256": "46aba40b7d0b162c5b895ab5e4a7f8d330f4c23d298fb8a8d4fce7eb5f2938d6",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_38.901_UMi_NLOS.conf",
+      "original_sha256": "46aba40b7d0b162c5b895ab5e4a7f8d330f4c23d298fb8a8d4fce7eb5f2938d6",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_38.901_UMi_NLOS_O2I.conf",
+      "bytes": 7792,
+      "sha256": "c68e67d7d25071cc7d89a6f1ce6778feedd53c12a5637564585d778d13e245ec",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_38.901_UMi_NLOS_O2I.conf",
+      "original_sha256": "c68e67d7d25071cc7d89a6f1ce6778feedd53c12a5637564585d778d13e245ec",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_3D_UMa_LOS.conf",
+      "bytes": 6552,
+      "sha256": "a4306060509427a061d0d8e337d9eb9f84ec6b08d418f6607d13dad4ba00db5d",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_3D_UMa_LOS.conf",
+      "original_sha256": "a4306060509427a061d0d8e337d9eb9f84ec6b08d418f6607d13dad4ba00db5d",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_3D_UMa_LOS_O2I.conf",
+      "bytes": 6570,
+      "sha256": "5a116e981c8910c377e0e3b90b88756ae9a053e2804690bbe5e835f98d40af54",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_3D_UMa_LOS_O2I.conf",
+      "original_sha256": "5a116e981c8910c377e0e3b90b88756ae9a053e2804690bbe5e835f98d40af54",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_3D_UMa_NLOS.conf",
+      "bytes": 7616,
+      "sha256": "71d10bec6b593c2f0537512ffee1dc75189a567192b99ad44b49eadb786fb7db",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_3D_UMa_NLOS.conf",
+      "original_sha256": "71d10bec6b593c2f0537512ffee1dc75189a567192b99ad44b49eadb786fb7db",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_3D_UMa_NLOS_O2I.conf",
+      "bytes": 7648,
+      "sha256": "7ad6cbeedba1b2d1d246efbd9738357e09bc5b65c586bcb9f24dfc0c6933b1a7",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_3D_UMa_NLOS_O2I.conf",
+      "original_sha256": "7ad6cbeedba1b2d1d246efbd9738357e09bc5b65c586bcb9f24dfc0c6933b1a7",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_3D_UMi_LOS.conf",
+      "bytes": 6596,
+      "sha256": "b03e928f7c874964f0c358bf57e5fbfeb368573893dd146ef26a7167a741c5b8",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_3D_UMi_LOS.conf",
+      "original_sha256": "b03e928f7c874964f0c358bf57e5fbfeb368573893dd146ef26a7167a741c5b8",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_3D_UMi_LOS_O2I.conf",
+      "bytes": 6568,
+      "sha256": "6e444e59faf2d96e1d7ed08e6fe860d03dd21dd209bff089723063d38877159d",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_3D_UMi_LOS_O2I.conf",
+      "original_sha256": "6e444e59faf2d96e1d7ed08e6fe860d03dd21dd209bff089723063d38877159d",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_3D_UMi_NLOS.conf",
+      "bytes": 7226,
+      "sha256": "c8ad00baed23d64026a2b4530e14188375c80b4577ae67d9479e078260d40374",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_3D_UMi_NLOS.conf",
+      "original_sha256": "c8ad00baed23d64026a2b4530e14188375c80b4577ae67d9479e078260d40374",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/3GPP_3D_UMi_NLOS_O2I.conf",
+      "bytes": 7354,
+      "sha256": "74873d652837956a7db2214f8378563e5d720fd3e3d6a13289f9e17503a8ddf5",
+      "original_source_group": "source_snapshots/quadriga_src/config/3GPP_3D_UMi_NLOS_O2I.conf",
+      "original_sha256": "74873d652837956a7db2214f8378563e5d720fd3e3d6a13289f9e17503a8ddf5",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/5G-ALLSTAR_DenseUrban_LOS.conf",
+      "bytes": 18017,
+      "sha256": "e0b23ef7956b0fc107021080f979f2a1670365f8166c55c102731bdd97043c3e",
+      "original_source_group": "source_snapshots/quadriga_src/config/5G-ALLSTAR_DenseUrban_LOS.conf",
+      "original_sha256": "e0b23ef7956b0fc107021080f979f2a1670365f8166c55c102731bdd97043c3e",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/5G-ALLSTAR_DenseUrban_NLOS.conf",
+      "bytes": 17289,
+      "sha256": "18312f43a27912767ad5f78cdb95f6ed58566a4b941f57e27fcdec53568e15f6",
+      "original_source_group": "source_snapshots/quadriga_src/config/5G-ALLSTAR_DenseUrban_NLOS.conf",
+      "original_sha256": "18312f43a27912767ad5f78cdb95f6ed58566a4b941f57e27fcdec53568e15f6",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/5G-ALLSTAR_Rural_LOS.conf",
+      "bytes": 11664,
+      "sha256": "6c1bc8d901db5041b764954c002046484c94c018b1e01f70524713a730a14f81",
+      "original_source_group": "source_snapshots/quadriga_src/config/5G-ALLSTAR_Rural_LOS.conf",
+      "original_sha256": "6c1bc8d901db5041b764954c002046484c94c018b1e01f70524713a730a14f81",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/5G-ALLSTAR_Rural_NLOS.conf",
+      "bytes": 11987,
+      "sha256": "33798466c0d29fff0f98e6467049b27a72a4a108fa2344890d9ce098955e3e85",
+      "original_source_group": "source_snapshots/quadriga_src/config/5G-ALLSTAR_Rural_NLOS.conf",
+      "original_sha256": "33798466c0d29fff0f98e6467049b27a72a4a108fa2344890d9ce098955e3e85",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/5G-ALLSTAR_Suburban_LOS.conf",
+      "bytes": 17123,
+      "sha256": "5f6312f80f49bb828e6ca75617c7b4f346b379df3df13067e8900cb29a617202",
+      "original_source_group": "source_snapshots/quadriga_src/config/5G-ALLSTAR_Suburban_LOS.conf",
+      "original_sha256": "5f6312f80f49bb828e6ca75617c7b4f346b379df3df13067e8900cb29a617202",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/5G-ALLSTAR_Suburban_NLOS.conf",
+      "bytes": 16104,
+      "sha256": "0c376c130184b9fccb63123f79f23e8327b32d28615d5cbae18bf2879568c2f5",
+      "original_source_group": "source_snapshots/quadriga_src/config/5G-ALLSTAR_Suburban_NLOS.conf",
+      "original_sha256": "0c376c130184b9fccb63123f79f23e8327b32d28615d5cbae18bf2879568c2f5",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/5G-ALLSTAR_Urban_LOS.conf",
+      "bytes": 16152,
+      "sha256": "b30e6fe95c7efe9131f86a333f09ecd2e36a788519876c84ed5bab3f31b0a3a8",
+      "original_source_group": "source_snapshots/quadriga_src/config/5G-ALLSTAR_Urban_LOS.conf",
+      "original_sha256": "b30e6fe95c7efe9131f86a333f09ecd2e36a788519876c84ed5bab3f31b0a3a8",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/5G-ALLSTAR_Urban_NLOS.conf",
+      "bytes": 13944,
+      "sha256": "c65939b88e1fc07ef1331bee81e29956b3cb6f267bb22789ebdf3d4e664933cf",
+      "original_source_group": "source_snapshots/quadriga_src/config/5G-ALLSTAR_Urban_NLOS.conf",
+      "original_sha256": "c65939b88e1fc07ef1331bee81e29956b3cb6f267bb22789ebdf3d4e664933cf",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/@qd_track/add_segment.m",
+      "bytes": 8853,
+      "sha256": "e5f2409631e3982d2900fbe5d92a62e04505188e76e14beb15fc6dceaefdf352",
+      "original_source_group": "source_snapshots/quadriga_src/config/@qd_track/add_segment.m",
+      "original_sha256": "e5f2409631e3982d2900fbe5d92a62e04505188e76e14beb15fc6dceaefdf352",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/@qd_track/calc_orientation.m",
+      "bytes": 6249,
+      "sha256": "a52cdbf40e7c0a213b33edd8083f29d5052a212c5e4980148d1522f8cd93d5ad",
+      "original_source_group": "source_snapshots/quadriga_src/config/@qd_track/calc_orientation.m",
+      "original_sha256": "a52cdbf40e7c0a213b33edd8083f29d5052a212c5e4980148d1522f8cd93d5ad",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/@qd_track/checksum.m",
+      "bytes": 2023,
+      "sha256": "9ae55833364cc2d5dac1b62d6d541c0ce60a31e86af2091e4ca5841a77824725",
+      "original_source_group": "source_snapshots/quadriga_src/config/@qd_track/checksum.m",
+      "original_sha256": "9ae55833364cc2d5dac1b62d6d541c0ce60a31e86af2091e4ca5841a77824725",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/@qd_track/copy.m",
+      "bytes": 2529,
+      "sha256": "fc5722fe48cfd57a7e7bae7642fe411bb821a2bfa5d5845e3b8e1659a57fe8ea",
+      "original_source_group": "source_snapshots/quadriga_src/config/@qd_track/copy.m",
+      "original_sha256": "fc5722fe48cfd57a7e7bae7642fe411bb821a2bfa5d5845e3b8e1659a57fe8ea",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/@qd_track/correct_overlap.m",
+      "bytes": 5344,
+      "sha256": "51acdb2072905ff7f064d324bb60f6892a31f1778f9bef815423826d4487f1a7",
+      "original_source_group": "source_snapshots/quadriga_src/config/@qd_track/correct_overlap.m",
+      "original_sha256": "51acdb2072905ff7f064d324bb60f6892a31f1778f9bef815423826d4487f1a7",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/@qd_track/generate.m",
+      "bytes": 8744,
+      "sha256": "23cd1ee0d7807f627223658c772622139d44a089ea74c58bdec1ac1cb571cde0",
+      "original_source_group": "source_snapshots/quadriga_src/config/@qd_track/generate.m",
+      "original_sha256": "23cd1ee0d7807f627223658c772622139d44a089ea74c58bdec1ac1cb571cde0",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/@qd_track/get_length.m",
+      "bytes": 1737,
+      "sha256": "5d279df61cbea99523e4329aff93b97f3bf4e3d117587ecac6dc2dff137cbd0f",
+      "original_source_group": "source_snapshots/quadriga_src/config/@qd_track/get_length.m",
+      "original_sha256": "5d279df61cbea99523e4329aff93b97f3bf4e3d117587ecac6dc2dff137cbd0f",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/@qd_track/get_subtrack.m",
+      "bytes": 6930,
+      "sha256": "06471f86fbb64a7065b6b12a70d098c195e2453299a0fa3a1b0eb55e75a8568f",
+      "original_source_group": "source_snapshots/quadriga_src/config/@qd_track/get_subtrack.m",
+      "original_sha256": "06471f86fbb64a7065b6b12a70d098c195e2453299a0fa3a1b0eb55e75a8568f",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/@qd_track/interpolate.m",
+      "bytes": 17097,
+      "sha256": "74521a7fe9c7874c54c261300329af6761f98bff8e1d1f0d33ad807f181082fa",
+      "original_source_group": "source_snapshots/quadriga_src/config/@qd_track/interpolate.m",
+      "original_sha256": "74521a7fe9c7874c54c261300329af6761f98bff8e1d1f0d33ad807f181082fa",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/@qd_track/qd_track.m",
+      "bytes": 17918,
+      "sha256": "0053dc0bd35e6fab5a8152378e0d3c8e7da201592c8b160d84f316aa6a45cbd1",
+      "original_source_group": "source_snapshots/quadriga_src/config/@qd_track/qd_track.m",
+      "original_sha256": "0053dc0bd35e6fab5a8152378e0d3c8e7da201592c8b160d84f316aa6a45cbd1",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/@qd_track/set_scenario.m",
+      "bytes": 7191,
+      "sha256": "85c1972139fc5a6608809462b09f4802e732b2621f3c1d38360fcdc217862dd2",
+      "original_source_group": "source_snapshots/quadriga_src/config/@qd_track/set_scenario.m",
+      "original_sha256": "85c1972139fc5a6608809462b09f4802e732b2621f3c1d38360fcdc217862dd2",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/@qd_track/set_speed.m",
+      "bytes": 2357,
+      "sha256": "8ba8d669a2d3d0d58dd96d5bde9287057d49474ec1df5b24aff89608dd56db11",
+      "original_source_group": "source_snapshots/quadriga_src/config/@qd_track/set_speed.m",
+      "original_sha256": "8ba8d669a2d3d0d58dd96d5bde9287057d49474ec1df5b24aff89608dd56db11",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/@qd_track/split_segment.m",
+      "bytes": 7318,
+      "sha256": "1d0fdcd1d3b2627bec38b4595e72ad7bac02543e8e7c8420cd6c8610408c9017",
+      "original_source_group": "source_snapshots/quadriga_src/config/@qd_track/split_segment.m",
+      "original_sha256": "1d0fdcd1d3b2627bec38b4595e72ad7bac02543e8e7c8420cd6c8610408c9017",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/BERLIN_UMa_LOS.conf",
+      "bytes": 5736,
+      "sha256": "72f27f80181d2cf9613bd3562fa9bca70c7430bf94e2bc319f783e1e98c3c6c2",
+      "original_source_group": "source_snapshots/quadriga_src/config/BERLIN_UMa_LOS.conf",
+      "original_sha256": "72f27f80181d2cf9613bd3562fa9bca70c7430bf94e2bc319f783e1e98c3c6c2",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/BERLIN_UMa_NLOS.conf",
+      "bytes": 5738,
+      "sha256": "3f8f8846191ca838b5ff8771128e3f0ca501490572beb6619bc73e09d606d282",
+      "original_source_group": "source_snapshots/quadriga_src/config/BERLIN_UMa_NLOS.conf",
+      "original_sha256": "3f8f8846191ca838b5ff8771128e3f0ca501490572beb6619bc73e09d606d282",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/BERLIN_UMi_Campus_LOS.conf",
+      "bytes": 6124,
+      "sha256": "ac899ac49b538798c84c456293d198c552e7883e2a9f933012c688c7e17b777e",
+      "original_source_group": "source_snapshots/quadriga_src/config/BERLIN_UMi_Campus_LOS.conf",
+      "original_sha256": "ac899ac49b538798c84c456293d198c552e7883e2a9f933012c688c7e17b777e",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/BERLIN_UMi_Campus_NLOS.conf",
+      "bytes": 5978,
+      "sha256": "801f09399b53f2e642c186f23e674978401a6c89e96045442259971abac528b6",
+      "original_source_group": "source_snapshots/quadriga_src/config/BERLIN_UMi_Campus_NLOS.conf",
+      "original_sha256": "801f09399b53f2e642c186f23e674978401a6c89e96045442259971abac528b6",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/BERLIN_UMi_Square_LOS.conf",
+      "bytes": 6126,
+      "sha256": "eb8baf73db06bdd1ce7f7ffd9d51b8c5c47c6f408dca2a2ba9bd6bc98593038e",
+      "original_source_group": "source_snapshots/quadriga_src/config/BERLIN_UMi_Square_LOS.conf",
+      "original_sha256": "eb8baf73db06bdd1ce7f7ffd9d51b8c5c47c6f408dca2a2ba9bd6bc98593038e",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/BERLIN_UMi_Square_NLOS.conf",
+      "bytes": 6131,
+      "sha256": "30ebd769cde94746cc6bf38bb61ef6f94dfb562bd208310a70bd7b3be5168c93",
+      "original_source_group": "source_snapshots/quadriga_src/config/BERLIN_UMi_Square_NLOS.conf",
+      "original_sha256": "30ebd769cde94746cc6bf38bb61ef6f94dfb562bd208310a70bd7b3be5168c93",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/DRESDEN_UMa_LOS.conf",
+      "bytes": 5892,
+      "sha256": "f3d8c6db7abb0ed025f6775420de69466f4d20fa450c84e565eadbeff1bff957",
+      "original_source_group": "source_snapshots/quadriga_src/config/DRESDEN_UMa_LOS.conf",
+      "original_sha256": "f3d8c6db7abb0ed025f6775420de69466f4d20fa450c84e565eadbeff1bff957",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/DRESDEN_UMa_NLOS.conf",
+      "bytes": 5803,
+      "sha256": "f344b4c98b016666efb2f70c9b133bce154772783da6f5f172d844583b4dcef7",
+      "original_source_group": "source_snapshots/quadriga_src/config/DRESDEN_UMa_NLOS.conf",
+      "original_sha256": "f344b4c98b016666efb2f70c9b133bce154772783da6f5f172d844583b4dcef7",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/Freespace.conf",
+      "bytes": 378,
+      "sha256": "6162d3159985bd4f003689b037ae1d1181247522e0b73ff9fd0d9f12fe6829d4",
+      "original_source_group": "source_snapshots/quadriga_src/config/Freespace.conf",
+      "original_sha256": "6162d3159985bd4f003689b037ae1d1181247522e0b73ff9fd0d9f12fe6829d4",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/LOSonly.conf",
+      "bytes": 230,
+      "sha256": "bb0bd97569d40ee12a91689b206c636e7e47b6a5b0c74a600263a2c9cf9d3ffe",
+      "original_source_group": "source_snapshots/quadriga_src/config/LOSonly.conf",
+      "original_sha256": "bb0bd97569d40ee12a91689b206c636e7e47b6a5b0c74a600263a2c9cf9d3ffe",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/MIMOSA_10-45_LOS.conf",
+      "bytes": 5134,
+      "sha256": "9c5b175b647385df67b9ae6429c4b6cd2b18ce41a202e0a18fa16d0464aa59fd",
+      "original_source_group": "source_snapshots/quadriga_src/config/MIMOSA_10-45_LOS.conf",
+      "original_sha256": "9c5b175b647385df67b9ae6429c4b6cd2b18ce41a202e0a18fa16d0464aa59fd",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/MIMOSA_10-45_NLOS.conf",
+      "bytes": 5181,
+      "sha256": "d78351363f77787202003b707875f198cad8ef86ea302e22afef59456b789152",
+      "original_source_group": "source_snapshots/quadriga_src/config/MIMOSA_10-45_NLOS.conf",
+      "original_sha256": "d78351363f77787202003b707875f198cad8ef86ea302e22afef59456b789152",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/MIMOSA_16-25_LOS.conf",
+      "bytes": 5133,
+      "sha256": "4e59054fb8698f9a3d53186fad9613945fb522a6ba46590d00c1231fb56312d9",
+      "original_source_group": "source_snapshots/quadriga_src/config/MIMOSA_16-25_LOS.conf",
+      "original_sha256": "4e59054fb8698f9a3d53186fad9613945fb522a6ba46590d00c1231fb56312d9",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/MIMOSA_16-25_NLOS.conf",
+      "bytes": 5182,
+      "sha256": "b6f31b842971add0d6bf0b38b74ff9730e5270e689625aa21e38ca03d0fcb6dd",
+      "original_source_group": "source_snapshots/quadriga_src/config/MIMOSA_16-25_NLOS.conf",
+      "original_sha256": "b6f31b842971add0d6bf0b38b74ff9730e5270e689625aa21e38ca03d0fcb6dd",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/MIMOSA_25-35_LOS.conf",
+      "bytes": 5179,
+      "sha256": "3239dd9467d44b3d518b2ea7aa947bae7d6fc5561d0022c73dcacb60f2584096",
+      "original_source_group": "source_snapshots/quadriga_src/config/MIMOSA_25-35_LOS.conf",
+      "original_sha256": "3239dd9467d44b3d518b2ea7aa947bae7d6fc5561d0022c73dcacb60f2584096",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/MIMOSA_25-35_NLOS.conf",
+      "bytes": 5132,
+      "sha256": "13a48d35583c3ced7647dbe6ac2b32b2b6bb3a377dcf368fedb4ad9515486197",
+      "original_source_group": "source_snapshots/quadriga_src/config/MIMOSA_25-35_NLOS.conf",
+      "original_sha256": "13a48d35583c3ced7647dbe6ac2b32b2b6bb3a377dcf368fedb4ad9515486197",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/MIMOSA_35-45_LOS.conf",
+      "bytes": 5179,
+      "sha256": "543f74de932befa6dc6e1c6c5b180b70edfdc9f67538342ee18c1ed4330b65e2",
+      "original_source_group": "source_snapshots/quadriga_src/config/MIMOSA_35-45_LOS.conf",
+      "original_sha256": "543f74de932befa6dc6e1c6c5b180b70edfdc9f67538342ee18c1ed4330b65e2",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/MIMOSA_35-45_NLOS.conf",
+      "bytes": 5182,
+      "sha256": "fb956461eb8ed2fa77a9ad5af658753986a7e256238b912ca9b9f952e53e2692",
+      "original_source_group": "source_snapshots/quadriga_src/config/MIMOSA_35-45_NLOS.conf",
+      "original_sha256": "fb956461eb8ed2fa77a9ad5af658753986a7e256238b912ca9b9f952e53e2692",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/mmMAGIC_Indoor_LOS.conf",
+      "bytes": 8534,
+      "sha256": "5859e99e08f81267891deb35e28520ab6d73062f367dce9909d717b1f7b9c588",
+      "original_source_group": "source_snapshots/quadriga_src/config/mmMAGIC_Indoor_LOS.conf",
+      "original_sha256": "5859e99e08f81267891deb35e28520ab6d73062f367dce9909d717b1f7b9c588",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/mmMAGIC_Indoor_NLOS.conf",
+      "bytes": 8772,
+      "sha256": "638f8bfeca73b6f58e3825643c3338c0c4c670ea5993aa1bc48deef410487a23",
+      "original_source_group": "source_snapshots/quadriga_src/config/mmMAGIC_Indoor_NLOS.conf",
+      "original_sha256": "638f8bfeca73b6f58e3825643c3338c0c4c670ea5993aa1bc48deef410487a23",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/mmMAGIC_UMi_LOS.conf",
+      "bytes": 8073,
+      "sha256": "16a00b023b836e8302a8adcc109705dbdc4c4a4bc8f686ed28c61ecc407a997c",
+      "original_source_group": "source_snapshots/quadriga_src/config/mmMAGIC_UMi_LOS.conf",
+      "original_sha256": "16a00b023b836e8302a8adcc109705dbdc4c4a4bc8f686ed28c61ecc407a997c",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/mmMAGIC_UMi_LOS_O2I.conf",
+      "bytes": 6703,
+      "sha256": "6e73a58f13c88c12bf9e13b3f1db03ca11d4a8f503520d76c752844ba47d096d",
+      "original_source_group": "source_snapshots/quadriga_src/config/mmMAGIC_UMi_LOS_O2I.conf",
+      "original_sha256": "6e73a58f13c88c12bf9e13b3f1db03ca11d4a8f503520d76c752844ba47d096d",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/mmMAGIC_UMi_NLOS.conf",
+      "bytes": 7055,
+      "sha256": "666b20da3ddeb990d8f5e6982a8e0592d7c4303d2a43e6dd0cc447583edb4428",
+      "original_source_group": "source_snapshots/quadriga_src/config/mmMAGIC_UMi_NLOS.conf",
+      "original_sha256": "666b20da3ddeb990d8f5e6982a8e0592d7c4303d2a43e6dd0cc447583edb4428",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/mmMAGIC_UMi_NLOS_O2I.conf",
+      "bytes": 6704,
+      "sha256": "c527f5b389740d5261f71da1ea5c9bf67f4081e731ba538ee7587a4ef95a5f0f",
+      "original_source_group": "source_snapshots/quadriga_src/config/mmMAGIC_UMi_NLOS_O2I.conf",
+      "original_sha256": "c527f5b389740d5261f71da1ea5c9bf67f4081e731ba538ee7587a4ef95a5f0f",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/Null.conf",
+      "bytes": 252,
+      "sha256": "c40e3847320b1b272553952fa7691897666f4ad30fd1b91c797f1534c999e076",
+      "original_source_group": "source_snapshots/quadriga_src/config/Null.conf",
+      "original_sha256": "c40e3847320b1b272553952fa7691897666f4ad30fd1b91c797f1534c999e076",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/QuaDRiGa_Industrial_LOS.conf",
+      "bytes": 8162,
+      "sha256": "ead2f6f457fb94efe0261aaf186a3a2a9560c6a0c8f38e55b25c44b09a1b9ded",
+      "original_source_group": "source_snapshots/quadriga_src/config/QuaDRiGa_Industrial_LOS.conf",
+      "original_sha256": "ead2f6f457fb94efe0261aaf186a3a2a9560c6a0c8f38e55b25c44b09a1b9ded",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/QuaDRiGa_Industrial_NLOS.conf",
+      "bytes": 7946,
+      "sha256": "567eec35adcbf16920a657662c76df12730f7356459d7ccf19cdd9553383d519",
+      "original_source_group": "source_snapshots/quadriga_src/config/QuaDRiGa_Industrial_NLOS.conf",
+      "original_sha256": "567eec35adcbf16920a657662c76df12730f7356459d7ccf19cdd9553383d519",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/QuaDRiGa_NTN_DenseUrban_LOS.conf",
+      "bytes": 8382,
+      "sha256": "2993e82d0b5f1b020998f16455222d23f3b2bce0317abf90ec9586182f99ef5b",
+      "original_source_group": "source_snapshots/quadriga_src/config/QuaDRiGa_NTN_DenseUrban_LOS.conf",
+      "original_sha256": "2993e82d0b5f1b020998f16455222d23f3b2bce0317abf90ec9586182f99ef5b",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/QuaDRiGa_NTN_DenseUrban_NLOS.conf",
+      "bytes": 6337,
+      "sha256": "a2b5720a50a8b52848357bdb7e8d6c5cf1e935604a7b1f601d6ae86c74dd530a",
+      "original_source_group": "source_snapshots/quadriga_src/config/QuaDRiGa_NTN_DenseUrban_NLOS.conf",
+      "original_sha256": "a2b5720a50a8b52848357bdb7e8d6c5cf1e935604a7b1f601d6ae86c74dd530a",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/QuaDRiGa_NTN_Rural_LOS.conf",
+      "bytes": 7441,
+      "sha256": "72f1c166dbf36c03d7b7d3c043961d9e9240f307d1b9b37daa7fcc63947bb76d",
+      "original_source_group": "source_snapshots/quadriga_src/config/QuaDRiGa_NTN_Rural_LOS.conf",
+      "original_sha256": "72f1c166dbf36c03d7b7d3c043961d9e9240f307d1b9b37daa7fcc63947bb76d",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/QuaDRiGa_NTN_Rural_NLOS.conf",
+      "bytes": 6255,
+      "sha256": "569341afeacc3e9be6a7ed383f13a7f22260bc755e46e482122db95867911da1",
+      "original_source_group": "source_snapshots/quadriga_src/config/QuaDRiGa_NTN_Rural_NLOS.conf",
+      "original_sha256": "569341afeacc3e9be6a7ed383f13a7f22260bc755e46e482122db95867911da1",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/QuaDRiGa_NTN_Suburban_LOS.conf",
+      "bytes": 7477,
+      "sha256": "4f6c314fea321af348a54de62fa29694c1ccc9fe45f7c0cfb4bad41d5d7e0e12",
+      "original_source_group": "source_snapshots/quadriga_src/config/QuaDRiGa_NTN_Suburban_LOS.conf",
+      "original_sha256": "4f6c314fea321af348a54de62fa29694c1ccc9fe45f7c0cfb4bad41d5d7e0e12",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/QuaDRiGa_NTN_Suburban_NLOS.conf",
+      "bytes": 6508,
+      "sha256": "885e4d08231b30f567aba515e3573deb2f6f071054f7f195262b3c0cf254b412",
+      "original_source_group": "source_snapshots/quadriga_src/config/QuaDRiGa_NTN_Suburban_NLOS.conf",
+      "original_sha256": "885e4d08231b30f567aba515e3573deb2f6f071054f7f195262b3c0cf254b412",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/QuaDRiGa_NTN_Urban_LOS.conf",
+      "bytes": 7764,
+      "sha256": "4f95a72ba0e70a8adb4125feb41575fe5119c8e635fa3d194d616a3a2de62308",
+      "original_source_group": "source_snapshots/quadriga_src/config/QuaDRiGa_NTN_Urban_LOS.conf",
+      "original_sha256": "4f95a72ba0e70a8adb4125feb41575fe5119c8e635fa3d194d616a3a2de62308",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/QuaDRiGa_NTN_Urban_NLOS.conf",
+      "bytes": 6198,
+      "sha256": "30845102d3493316c28fdabadc1d1591e30493be0818b060066d92f6ed70c0fc",
+      "original_source_group": "source_snapshots/quadriga_src/config/QuaDRiGa_NTN_Urban_NLOS.conf",
+      "original_sha256": "30845102d3493316c28fdabadc1d1591e30493be0818b060066d92f6ed70c0fc",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/QuaDRiGa_UD2D_LOS.conf",
+      "bytes": 6371,
+      "sha256": "07d59a2186808d9122fda481fc78e3cdde03962cbeb51b5e402822f7334b3533",
+      "original_source_group": "source_snapshots/quadriga_src/config/QuaDRiGa_UD2D_LOS.conf",
+      "original_sha256": "07d59a2186808d9122fda481fc78e3cdde03962cbeb51b5e402822f7334b3533",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/QuaDRiGa_UD2D_NLOS.conf",
+      "bytes": 7040,
+      "sha256": "2382852246fba695d25deca598e1e8a752c66a3c0951151b82329d8201b937e9",
+      "original_source_group": "source_snapshots/quadriga_src/config/QuaDRiGa_UD2D_NLOS.conf",
+      "original_sha256": "2382852246fba695d25deca598e1e8a752c66a3c0951151b82329d8201b937e9",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/TwoRayGR.conf",
+      "bytes": 752,
+      "sha256": "1f43d5f12a922df234213e0f9579be8a64464664cdb18828af03e508a3f881fe",
+      "original_source_group": "source_snapshots/quadriga_src/config/TwoRayGR.conf",
+      "original_sha256": "1f43d5f12a922df234213e0f9579be8a64464664cdb18828af03e508a3f881fe",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/WINNER_Indoor_A1_LOS.conf",
+      "bytes": 5929,
+      "sha256": "f21f1787366f7e21a3ea3dc1d6d524b1cdb61beaef92eae16afa31720810fd7b",
+      "original_source_group": "source_snapshots/quadriga_src/config/WINNER_Indoor_A1_LOS.conf",
+      "original_sha256": "f21f1787366f7e21a3ea3dc1d6d524b1cdb61beaef92eae16afa31720810fd7b",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/WINNER_Indoor_A1_NLOS.conf",
+      "bytes": 5590,
+      "sha256": "ae5cf6c085616bd1347b522dd58398cd66f0c1c09810b672e32c2749aede4cf7",
+      "original_source_group": "source_snapshots/quadriga_src/config/WINNER_Indoor_A1_NLOS.conf",
+      "original_sha256": "ae5cf6c085616bd1347b522dd58398cd66f0c1c09810b672e32c2749aede4cf7",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/WINNER_SMa_C1_LOS.conf",
+      "bytes": 6210,
+      "sha256": "a741fc945c1bc01fff1610349ab532b9cab67c01a6b46f64a8af142dfac4bc2b",
+      "original_source_group": "source_snapshots/quadriga_src/config/WINNER_SMa_C1_LOS.conf",
+      "original_sha256": "a741fc945c1bc01fff1610349ab532b9cab67c01a6b46f64a8af142dfac4bc2b",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/WINNER_SMa_C1_NLOS.conf",
+      "bytes": 6245,
+      "sha256": "3cb073a9745922e5ab31557355307424f4a85c496e96e5fb13b6e9ae4c60370e",
+      "original_source_group": "source_snapshots/quadriga_src/config/WINNER_SMa_C1_NLOS.conf",
+      "original_sha256": "3cb073a9745922e5ab31557355307424f4a85c496e96e5fb13b6e9ae4c60370e",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/WINNER_UMa2Indoor_C4_LOS.conf",
+      "bytes": 5991,
+      "sha256": "00703cfa79789e31519fa3004c5932ca55f92755cf0cb65bd58cdc5aa0cc2df4",
+      "original_source_group": "source_snapshots/quadriga_src/config/WINNER_UMa2Indoor_C4_LOS.conf",
+      "original_sha256": "00703cfa79789e31519fa3004c5932ca55f92755cf0cb65bd58cdc5aa0cc2df4",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/WINNER_UMa2Indoor_C4_NLOS.conf",
+      "bytes": 6173,
+      "sha256": "d447e622026c0af913f9c1019cd515e0b5e01993665a5f47d5cdec5d08f2dd51",
+      "original_source_group": "source_snapshots/quadriga_src/config/WINNER_UMa2Indoor_C4_NLOS.conf",
+      "original_sha256": "d447e622026c0af913f9c1019cd515e0b5e01993665a5f47d5cdec5d08f2dd51",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/WINNER_UMa_C2_LOS.conf",
+      "bytes": 6252,
+      "sha256": "e67cab779184aa37c723cc7b03b47a063051d5b46237920cc8ce356005ed5695",
+      "original_source_group": "source_snapshots/quadriga_src/config/WINNER_UMa_C2_LOS.conf",
+      "original_sha256": "e67cab779184aa37c723cc7b03b47a063051d5b46237920cc8ce356005ed5695",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/WINNER_UMa_C2_NLOS.conf",
+      "bytes": 6250,
+      "sha256": "fd95240043345554c2027934de9c7ecd5ab24303633bd646b84cb79762de9d04",
+      "original_source_group": "source_snapshots/quadriga_src/config/WINNER_UMa_C2_NLOS.conf",
+      "original_sha256": "fd95240043345554c2027934de9c7ecd5ab24303633bd646b84cb79762de9d04",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/WINNER_UMi2Indoor_B4_LOS.conf",
+      "bytes": 5992,
+      "sha256": "44db182d3eaa468aa15e5c8f7612bc62a2b3a3a52de7568a487d4e9c882dc154",
+      "original_source_group": "source_snapshots/quadriga_src/config/WINNER_UMi2Indoor_B4_LOS.conf",
+      "original_sha256": "44db182d3eaa468aa15e5c8f7612bc62a2b3a3a52de7568a487d4e9c882dc154",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/WINNER_UMi2Indoor_B4_NLOS.conf",
+      "bytes": 6173,
+      "sha256": "c2f320456e0713998a072ac142dfba54ebea22f111d6ca0da505256a35384645",
+      "original_source_group": "source_snapshots/quadriga_src/config/WINNER_UMi2Indoor_B4_NLOS.conf",
+      "original_sha256": "c2f320456e0713998a072ac142dfba54ebea22f111d6ca0da505256a35384645",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/WINNER_UMi_B1_LOS.conf",
+      "bytes": 6207,
+      "sha256": "11a042552616d7d1fe0234bf7bd6183f5299ea4432cc5aa08525d5aa099d9c8b",
+      "original_source_group": "source_snapshots/quadriga_src/config/WINNER_UMi_B1_LOS.conf",
+      "original_sha256": "11a042552616d7d1fe0234bf7bd6183f5299ea4432cc5aa08525d5aa099d9c8b",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/config/WINNER_UMi_B1_NLOS.conf",
+      "bytes": 6151,
+      "sha256": "c623c050594638b8c0a9920a33ca544b315b1c188736656b8e60c6ae3f24d6ef",
+      "original_source_group": "source_snapshots/quadriga_src/config/WINNER_UMi_B1_NLOS.conf",
+      "original_sha256": "c623c050594638b8c0a9920a33ca544b315b1c188736656b8e60c6ae3f24d6ef",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/equalization_new/Channel_CDL_TS_specific_v4.m",
+      "bytes": 9002,
+      "sha256": "83b68f0a2812bb45e405bb2e8c4824a3c18ad52614db26685b36df3c55129dba",
+      "original_source_group": "source_snapshots/quadriga_src/equalization_new/Channel_CDL_TS_specific_v4.m",
+      "original_sha256": "83b68f0a2812bb45e405bb2e8c4824a3c18ad52614db26685b36df3c55129dba",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/equalization_new/Channel_CDL_TS_specific_v5.m",
+      "bytes": 9691,
+      "sha256": "7c097cc23656b98283e73c052d0c84fb654f34bac4f74c86cdcf752d20f547eb",
+      "original_source_group": "source_snapshots/quadriga_src/equalization_new/Channel_CDL_TS_specific_v5.m",
+      "original_sha256": "7c097cc23656b98283e73c052d0c84fb654f34bac4f74c86cdcf752d20f547eb",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/quadriga_src/NOTICE.md",
+      "bytes": 802,
+      "sha256": "c6cf79de60046a768d139e199b5e8ee3c5a1cd1141cbc1ab8962db10d3e17bfc"
+    },
+    {
+      "path": "third_party/quadriga_src/QuaDRiGa_License.txt",
+      "bytes": 4211,
+      "sha256": "7d568517af83c243d498662491324250403b20b4a088cf7ca4822664212d5367",
+      "original_source_group": "source_snapshots/quadriga_src/QuaDRiGa_License.txt",
+      "original_sha256": "7d568517af83c243d498662491324250403b20b4a088cf7ca4822664212d5367",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_1st/configs/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "third_party/score_sde/sde_1st/configs/ve/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "third_party/score_sde/sde_1st/configs/ve/ffhq_256_ncsnpp_continuous.py",
+      "bytes": 1018,
+      "sha256": "5494d198fcd2de47f5738b9e103c3b0bf5f5de0af4d01c2636d67ce7951f7dcb",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_1st/configs/ve/ffhq_256_ncsnpp_continuous.py",
+      "original_sha256": "e3e995398bea153b24d34982d6d3d9ee736e44a5af8da82799d66d2590ac451a",
+      "modified_for_release": true
+    },
+    {
+      "path": "third_party/score_sde/sde_1st/losses.py",
+      "bytes": 8332,
+      "sha256": "a27a29da6bac5701796ee6f52d1fdf5e144401fee1e254536e936d8d6f685904",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_1st/losses.py",
+      "original_sha256": "a27a29da6bac5701796ee6f52d1fdf5e144401fee1e254536e936d8d6f685904",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_1st/models/__init__.py",
+      "bytes": 608,
+      "sha256": "b4d83f5cadbd1300480ce723b2bb572a7f5fff13017473bfd8d5c95969fa347f",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_1st/models/__init__.py",
+      "original_sha256": "b4d83f5cadbd1300480ce723b2bb572a7f5fff13017473bfd8d5c95969fa347f",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_1st/models/ema.py",
+      "bytes": 3414,
+      "sha256": "de51eed0b88ee48347c3dc5db2321cc6b999dbcd895af870b096f27512465243",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_1st/models/ema.py",
+      "original_sha256": "de51eed0b88ee48347c3dc5db2321cc6b999dbcd895af870b096f27512465243",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_1st/models/layers.py",
+      "bytes": 22687,
+      "sha256": "132b0c564d96c23448c2026cc1b19b8cafc484751f4a34a78ca56a25d01af7b5",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_1st/models/layers.py",
+      "original_sha256": "132b0c564d96c23448c2026cc1b19b8cafc484751f4a34a78ca56a25d01af7b5",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_1st/models/layerspp.py",
+      "bytes": 9001,
+      "sha256": "55714531661209ede4c30df64f8660abcf21addc09d6ccf947911dd7e8e8da50",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_1st/models/layerspp.py",
+      "original_sha256": "55714531661209ede4c30df64f8660abcf21addc09d6ccf947911dd7e8e8da50",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_1st/models/ncsnpp.py",
+      "bytes": 13659,
+      "sha256": "2803c6d7a0ba2b53ef9a01262f37bb55c6ca427324348fbc1c1fdfd1e59b8f98",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_1st/models/ncsnpp.py",
+      "original_sha256": "2803c6d7a0ba2b53ef9a01262f37bb55c6ca427324348fbc1c1fdfd1e59b8f98",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_1st/models/normalization.py",
+      "bytes": 7657,
+      "sha256": "0195a2f50be2df649e823a6a2bda91090d54f6c7ab480bbda99376898395c447",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_1st/models/normalization.py",
+      "original_sha256": "0195a2f50be2df649e823a6a2bda91090d54f6c7ab480bbda99376898395c447",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_1st/models/up_or_down_sampling.py",
+      "bytes": 8900,
+      "sha256": "c7f3389dd9b9e24808ba99dfc583a966e71dd78b695acf9aa66d810ef6374b07",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_1st/models/up_or_down_sampling.py",
+      "original_sha256": "c7f3389dd9b9e24808ba99dfc583a966e71dd78b695acf9aa66d810ef6374b07",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_1st/models/utils.py",
+      "bytes": 5684,
+      "sha256": "479479f872375f34494d1bd31725af744f9e7d2a11beac04b481801894ce379f",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_1st/models/utils.py",
+      "original_sha256": "479479f872375f34494d1bd31725af744f9e7d2a11beac04b481801894ce379f",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_1st/op/__init__.py",
+      "bytes": 89,
+      "sha256": "d3bdebb6b1ea35ab8e7dd14af32919f11ae630ab9154d4c84f839397b98b2bf6",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_1st/op/__init__.py",
+      "original_sha256": "d3bdebb6b1ea35ab8e7dd14af32919f11ae630ab9154d4c84f839397b98b2bf6",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_1st/op/fused_act.py",
+      "bytes": 3044,
+      "sha256": "311a7f8f08f14816246aefa9df8e2ef8b8e966a35cb26ff7d3ce7f850abff2e6",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_1st/op/fused_act.py",
+      "original_sha256": "8a999d2efb62de16ffc4d70b1cec0e6aa084e412ab4d5962cbb3488b3412df70",
+      "modified_for_release": true
+    },
+    {
+      "path": "third_party/score_sde/sde_1st/op/fused_bias_act.cpp",
+      "bytes": 846,
+      "sha256": "a69d7233252bceaf18639d9fb9715a71cf0eb5eff11aa6c11c659e0850b155ea",
+      "original_source_group": "source_snapshots/server/source_snapshots/sde_1st/op/fused_bias_act.cpp",
+      "original_sha256": "a69d7233252bceaf18639d9fb9715a71cf0eb5eff11aa6c11c659e0850b155ea",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_1st/op/fused_bias_act_kernel.cu",
+      "bytes": 2875,
+      "sha256": "42c217064d68d91756cd0f92e19377c61824b4734b4659095b9282075e9113f4",
+      "original_source_group": "source_snapshots/server/source_snapshots/sde_1st/op/fused_bias_act_kernel.cu",
+      "original_sha256": "42c217064d68d91756cd0f92e19377c61824b4734b4659095b9282075e9113f4",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_1st/op/upfirdn2d.cpp",
+      "bytes": 988,
+      "sha256": "d7e4b98b3056a102ecbfbf32826be11f8c0d68786f158bfa24f682d89fa6c5b8",
+      "original_source_group": "source_snapshots/server/source_snapshots/sde_1st/op/upfirdn2d.cpp",
+      "original_sha256": "d7e4b98b3056a102ecbfbf32826be11f8c0d68786f158bfa24f682d89fa6c5b8",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_1st/op/upfirdn2d.py",
+      "bytes": 6136,
+      "sha256": "ad8412ba7765f41d97e86081f124939a9e960ea2a9ab48f095aab7dbf8d37446",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_1st/op/upfirdn2d.py",
+      "original_sha256": "e8902a530928ca5b7feb079d19933d2d15fc0afa6b2e36ed808c42ba83b1c88a",
+      "modified_for_release": true
+    },
+    {
+      "path": "third_party/score_sde/sde_1st/op/upfirdn2d_kernel.cu",
+      "bytes": 12079,
+      "sha256": "c985d8214394b35ebe9e3190d52a6d30eae07cd3ff222f5b4020d8a999e15fdf",
+      "original_source_group": "source_snapshots/server/source_snapshots/sde_1st/op/upfirdn2d_kernel.cu",
+      "original_sha256": "c985d8214394b35ebe9e3190d52a6d30eae07cd3ff222f5b4020d8a999e15fdf",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_1st/sde_lib.py",
+      "bytes": 7554,
+      "sha256": "6f1e755bc75a9a059821117b277688297b985f39d75122949592cecb0cf6c503",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_1st/sde_lib.py",
+      "original_sha256": "6f1e755bc75a9a059821117b277688297b985f39d75122949592cecb0cf6c503",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_2nd/configs/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "third_party/score_sde/sde_2nd/configs/ve/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "third_party/score_sde/sde_2nd/configs/ve/ffhq_256_ncsnpp_continuous.py",
+      "bytes": 1018,
+      "sha256": "2ed707f5ab97ba1a9b19f7e94b9518707d4dd89c1a9719266db486a58d1103bc",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_2nd/configs/ve/ffhq_256_ncsnpp_continuous.py",
+      "original_sha256": "f1d5174ccc796b1f506bb9ee5c5ba28e317c1e3fc1accbb1484217da4fa2bc0b",
+      "modified_for_release": true
+    },
+    {
+      "path": "third_party/score_sde/sde_2nd/losses.py",
+      "bytes": 8753,
+      "sha256": "4749ebe330d8b5a82cf984f0aa96ce61beca79260a4c7c138c675ce74389c48d",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_2nd/losses.py",
+      "original_sha256": "4749ebe330d8b5a82cf984f0aa96ce61beca79260a4c7c138c675ce74389c48d",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_2nd/models/__init__.py",
+      "bytes": 608,
+      "sha256": "b4d83f5cadbd1300480ce723b2bb572a7f5fff13017473bfd8d5c95969fa347f",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_2nd/models/__init__.py",
+      "original_sha256": "b4d83f5cadbd1300480ce723b2bb572a7f5fff13017473bfd8d5c95969fa347f",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_2nd/models/ema.py",
+      "bytes": 3414,
+      "sha256": "de51eed0b88ee48347c3dc5db2321cc6b999dbcd895af870b096f27512465243",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_2nd/models/ema.py",
+      "original_sha256": "de51eed0b88ee48347c3dc5db2321cc6b999dbcd895af870b096f27512465243",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_2nd/models/layers.py",
+      "bytes": 22687,
+      "sha256": "132b0c564d96c23448c2026cc1b19b8cafc484751f4a34a78ca56a25d01af7b5",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_2nd/models/layers.py",
+      "original_sha256": "132b0c564d96c23448c2026cc1b19b8cafc484751f4a34a78ca56a25d01af7b5",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_2nd/models/layerspp.py",
+      "bytes": 9001,
+      "sha256": "55714531661209ede4c30df64f8660abcf21addc09d6ccf947911dd7e8e8da50",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_2nd/models/layerspp.py",
+      "original_sha256": "55714531661209ede4c30df64f8660abcf21addc09d6ccf947911dd7e8e8da50",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_2nd/models/ncsnpp.py",
+      "bytes": 13659,
+      "sha256": "2803c6d7a0ba2b53ef9a01262f37bb55c6ca427324348fbc1c1fdfd1e59b8f98",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_2nd/models/ncsnpp.py",
+      "original_sha256": "2803c6d7a0ba2b53ef9a01262f37bb55c6ca427324348fbc1c1fdfd1e59b8f98",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_2nd/models/normalization.py",
+      "bytes": 7657,
+      "sha256": "0195a2f50be2df649e823a6a2bda91090d54f6c7ab480bbda99376898395c447",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_2nd/models/normalization.py",
+      "original_sha256": "0195a2f50be2df649e823a6a2bda91090d54f6c7ab480bbda99376898395c447",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_2nd/models/up_or_down_sampling.py",
+      "bytes": 8900,
+      "sha256": "c7f3389dd9b9e24808ba99dfc583a966e71dd78b695acf9aa66d810ef6374b07",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_2nd/models/up_or_down_sampling.py",
+      "original_sha256": "c7f3389dd9b9e24808ba99dfc583a966e71dd78b695acf9aa66d810ef6374b07",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_2nd/models/utils.py",
+      "bytes": 5684,
+      "sha256": "479479f872375f34494d1bd31725af744f9e7d2a11beac04b481801894ce379f",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_2nd/models/utils.py",
+      "original_sha256": "479479f872375f34494d1bd31725af744f9e7d2a11beac04b481801894ce379f",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_2nd/op/__init__.py",
+      "bytes": 89,
+      "sha256": "d3bdebb6b1ea35ab8e7dd14af32919f11ae630ab9154d4c84f839397b98b2bf6",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_2nd/op/__init__.py",
+      "original_sha256": "d3bdebb6b1ea35ab8e7dd14af32919f11ae630ab9154d4c84f839397b98b2bf6",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_2nd/op/fused_act.py",
+      "bytes": 3044,
+      "sha256": "311a7f8f08f14816246aefa9df8e2ef8b8e966a35cb26ff7d3ce7f850abff2e6",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_2nd/op/fused_act.py",
+      "original_sha256": "8a999d2efb62de16ffc4d70b1cec0e6aa084e412ab4d5962cbb3488b3412df70",
+      "modified_for_release": true
+    },
+    {
+      "path": "third_party/score_sde/sde_2nd/op/fused_bias_act.cpp",
+      "bytes": 846,
+      "sha256": "a69d7233252bceaf18639d9fb9715a71cf0eb5eff11aa6c11c659e0850b155ea",
+      "original_source_group": "source_snapshots/server/source_snapshots/sde_2nd/op/fused_bias_act.cpp",
+      "original_sha256": "a69d7233252bceaf18639d9fb9715a71cf0eb5eff11aa6c11c659e0850b155ea",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_2nd/op/fused_bias_act_kernel.cu",
+      "bytes": 2875,
+      "sha256": "42c217064d68d91756cd0f92e19377c61824b4734b4659095b9282075e9113f4",
+      "original_source_group": "source_snapshots/server/source_snapshots/sde_2nd/op/fused_bias_act_kernel.cu",
+      "original_sha256": "42c217064d68d91756cd0f92e19377c61824b4734b4659095b9282075e9113f4",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_2nd/op/upfirdn2d.cpp",
+      "bytes": 988,
+      "sha256": "d7e4b98b3056a102ecbfbf32826be11f8c0d68786f158bfa24f682d89fa6c5b8",
+      "original_source_group": "source_snapshots/server/source_snapshots/sde_2nd/op/upfirdn2d.cpp",
+      "original_sha256": "d7e4b98b3056a102ecbfbf32826be11f8c0d68786f158bfa24f682d89fa6c5b8",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_2nd/op/upfirdn2d.py",
+      "bytes": 6136,
+      "sha256": "ad8412ba7765f41d97e86081f124939a9e960ea2a9ab48f095aab7dbf8d37446",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_2nd/op/upfirdn2d.py",
+      "original_sha256": "e8902a530928ca5b7feb079d19933d2d15fc0afa6b2e36ed808c42ba83b1c88a",
+      "modified_for_release": true
+    },
+    {
+      "path": "third_party/score_sde/sde_2nd/op/upfirdn2d_kernel.cu",
+      "bytes": 12079,
+      "sha256": "c985d8214394b35ebe9e3190d52a6d30eae07cd3ff222f5b4020d8a999e15fdf",
+      "original_source_group": "source_snapshots/server/source_snapshots/sde_2nd/op/upfirdn2d_kernel.cu",
+      "original_sha256": "c985d8214394b35ebe9e3190d52a6d30eae07cd3ff222f5b4020d8a999e15fdf",
+      "modified_for_release": false
+    },
+    {
+      "path": "third_party/score_sde/sde_2nd/sde_lib.py",
+      "bytes": 7554,
+      "sha256": "6f1e755bc75a9a059821117b277688297b985f39d75122949592cecb0cf6c503",
+      "original_source_group": "server_exports/formal_20261017_0602/payload/code/sde_2nd/sde_lib.py",
+      "original_sha256": "6f1e755bc75a9a059821117b277688297b985f39d75122949592cecb0cf6c503",
+      "modified_for_release": false
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 4585,
+      "sha256": "f8764d1feb2160afdefe99a782735a00ade5b33103a90878e3bb41e9ce1cbd1d"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "origin": "New-channel reproduction completed 2026-10-17; A/B MDVALSE added 2026-10-18",
+  "trials_per_case": 3000,
+  "stmp_cases_per_variant": 21,
+  "baseline_cases": 18,
+  "models": {
+    "1": {
+      "sha256": "5b95c8a334e2b7f46ec228c401bae898aa0d51441670293505c1693261c50a00",
+      "parameters_sha256": "5cc625309b761a730b15d3599890ad043deb5f62b8d605c11aa0981fc6762806",
+      "training_status": {
+        "state": "training_finished",
+        "reason": "max_steps",
+        "step": 100001,
+        "best_metric": 175.42756628417968,
+        "best_variant": "ema",
+        "last_loss": 173.19949340820312,
+        "elapsed_seconds": 39170.3456283398,
+        "teacher_parameters_sha256": null
+      },
+      "selection": {
+        "step": 100001,
+        "variant": "ema",
+        "loss": 175.42756628417968,
+        "count": 2000
+      }
+    },
+    "2": {
+      "sha256": "cad5cbd0ebe24b4ea744930f858920435166510bd62dd9b418be8009c9b5cc75",
+      "parameters_sha256": "c64b9a5ca7b36570fdad72d8ecc94aa0c3e10f27edc7a1ba4abeb9ad9c5d1609",
+      "training_status": {
+        "state": "training_finished",
+        "reason": "stage_time_limit",
+        "step": 141128,
+        "best_metric": 150.77008972167968,
+        "best_variant": "ema",
+        "last_loss": 152.53009033203125,
+        "elapsed_seconds": 57605.83633004874,
+        "teacher_parameters_sha256": "5cc625309b761a730b15d3599890ad043deb5f62b8d605c11aa0981fc6762806"
+      },
+      "selection": {
+        "step": 111000,
+        "variant": "ema",
+        "loss": 150.77008972167968,
+        "count": 2000
+      }
+    }
+  },
+  "E2_display_kappas": [
+    0,
+    5,
+    10
+  ],
+  "E2_omitted_kappa": -5,
+  "note": "These are aggregate reference results, not executable checkpoints or raw Monte Carlo data.",
+  "E0_seed": 1,
+  "E0_formula": "10 log10(abs(fftshift(fft2(H)))^2); no FFT normalization",
+  "summary_and_iteration_units": "Position RMSE in meters",
+  "source_sha256": {
+    "fresh_historical_summary.csv": "754885be33e1dbe43a124ded1134a79ef19d5a2fccdc23d32e9975eba9ec4617",
+    "fresh_paper_summary.csv": "76d39cfe79787bc0e802ce1bf0fd83cace58ae40b2da41c781f434a9e246a658",
+    "MVALSE_CDLA_summary.csv": "b97349b5af30969908614697859ded19597b2dffa02b332155fd113af6989cbb",
+    "MVALSE_CDLB_summary.csv": "430bee804e93ee3c8c7debce694ba7917e0d90ed2fe878a2205bec45e3e9aa2b",
+    "MVALSE_CDLC_summary.csv": "ac68d265d3b4791e9d6c5c68757a898a8024b3be9ec28e2e42592456ce0296dc"
+  }
+}

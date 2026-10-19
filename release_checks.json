@@ -1,0 +1,98 @@
+{
+  "release": "1.0.0",
+  "checked_on": "2026-10-18",
+  "copyright": "2026 Boyu Teng",
+  "project_license": "MIT; third-party exceptions in THIRD_PARTY_NOTICES.md",
+  "python_unit_tests": {
+    "passed": 27,
+    "failed": 0
+  },
+  "matlab_smoke": {
+    "version": "R2023b",
+    "channels_generated": 12,
+    "channels_elementwise_match_original": 12,
+    "baseline_cases": 18,
+    "trials_per_baseline_case": 2
+  },
+  "python_cpu_smoke": {
+    "real_model_nf": 128,
+    "first_order_resume_and_freeze": "passed",
+    "frozen_training_refusal": "passed",
+    "second_order_frozen_teacher_and_freeze": "passed",
+    "evaluation_cases": 21,
+    "trials_per_case": 2,
+    "iterations": 10,
+    "summary_and_plots": "passed"
+  },
+  "review_regressions": {
+    "recovery_with_partial_jsonl_and_uncommitted_best": "passed",
+    "backend_bound_evaluation_and_idempotent_resume": "passed",
+    "effective_network_source_identity": "passed",
+    "paper_nonfinite_plot_annotations": "passed"
+  },
+  "source_audit": {
+    "file_count_before_manifest": 428,
+    "uncompressed_bytes": 6216000,
+    "copied_files_unchanged": 334,
+    "copied_files_modified": [
+      "scripts/train_score.py",
+      "scripts/freeze_model.py",
+      "scripts/model_runtime.py",
+      "scripts/evaluate.py",
+      "scripts/make_covariance.py",
+      "scripts/summarize_results.py",
+      "scripts/plot_angular_spectrum.py",
+      "matlab/generate_channels.m",
+      "matlab/evaluate_mvalse.m",
+      "third_party/score_sde/sde_1st/op/fused_act.py",
+      "third_party/score_sde/sde_1st/op/upfirdn2d.py",
+      "third_party/score_sde/sde_1st/configs/ve/ffhq_256_ncsnpp_continuous.py",
+      "third_party/score_sde/sde_2nd/op/fused_act.py",
+      "third_party/score_sde/sde_2nd/op/upfirdn2d.py",
+      "third_party/score_sde/sde_2nd/configs/ve/ffhq_256_ncsnpp_continuous.py",
+      "tests/test_numerics.py",
+      "tests/test_observations.py",
+      "tests/test_train_support.py",
+      "tests/test_artifact_support.py",
+      "tests/test_summary.py",
+      "tests/test_localization.py",
+      "tests/test_turbo.py"
+    ],
+    "deliberately_excluded_origin_entries": 12,
+    "original_source_hash_mismatches": [],
+    "forbidden_files": [],
+    "private_path_matches": [],
+    "broken_document_links": []
+  },
+  "not_repeated_for_packaging": [
+    "full training",
+    "full 3000-trial Monte Carlo",
+    "fresh CUDA compilation",
+    "full cross-host transfer"
+  ],
+  "archive_checks": {
+    "state": "passed",
+    "extracted_path_contains_spaces": true,
+    "checks": [
+      {
+        "check": "manifest_after_extraction",
+        "exit_code": 0
+      },
+      {
+        "check": "tests_after_extraction",
+        "exit_code": 0
+      },
+      {
+        "check": "redraw_historical",
+        "exit_code": 0
+      },
+      {
+        "check": "redraw_paper",
+        "exit_code": 0
+      }
+    ],
+    "aggregate_rows_per_variant": 102,
+    "redrawn_figure_files_per_variant": 16,
+    "note": "Candidate extraction verified executable contents; final repack changes only documentation/check records/manifest and is hash-checked again."
+  }
+}

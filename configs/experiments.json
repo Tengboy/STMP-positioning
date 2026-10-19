@@ -1,0 +1,43 @@
+{
+  "batch_size": 64,
+  "iterations": 10,
+  "trials_per_case": 3000,
+  "observation_order": [
+    "CDLC_k0_s0.mat",
+    "CDLC_k0_s4.mat",
+    "CDLC_k0_s8.mat",
+    "CDLC_k0_s12.mat",
+    "CDLC_k0_s16.mat",
+    "CDLC_k0_s20.mat",
+    "CDLC_k-5_s20.mat",
+    "CDLC_k5_s20.mat",
+    "CDLC_k10_s20.mat",
+    "CDLB_k0_s0.mat",
+    "CDLB_k0_s4.mat",
+    "CDLB_k0_s8.mat",
+    "CDLB_k0_s12.mat",
+    "CDLB_k0_s16.mat",
+    "CDLB_k0_s20.mat",
+    "CDLA_k0_s0.mat",
+    "CDLA_k0_s4.mat",
+    "CDLA_k0_s8.mat",
+    "CDLA_k0_s12.mat",
+    "CDLA_k0_s16.mat",
+    "CDLA_k0_s20.mat"
+  ],
+  "truth_based_early_stop": false,
+  "geometry_dtype": "float32",
+  "network_dtype": "float32",
+  "variants": {
+    "historical": {
+      "initialization": "2d",
+      "variance": "legacy_mean_real",
+      "covariance": "legacy_conjugate"
+    },
+    "paper": {
+      "initialization": "1d",
+      "variance": "complex_sum",
+      "covariance": "correct"
+    }
+  }
+}

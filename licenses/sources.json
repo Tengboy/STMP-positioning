@@ -1,0 +1,22 @@
+[
+  {
+    "file": "licenses/Apache-2.0.txt",
+    "upstream_url": "https://raw.githubusercontent.com/yang-song/score_sde_pytorch/main/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "file": "licenses/pytorch_ema-MIT.txt",
+    "upstream_url": "https://raw.githubusercontent.com/fadel/pytorch_ema/master/LICENSE",
+    "sha256": "f69cc472e818b58daa5b5ff7a6e741c09c33e8c43e4705f9489af30246c76aa8"
+  },
+  {
+    "file": "licenses/stylegan2-pytorch-MIT.txt",
+    "upstream_url": "https://raw.githubusercontent.com/rosinality/stylegan2-pytorch/master/LICENSE",
+    "sha256": "caa1b47f5eb0379b968861ea9e9b07c100d5f9d69e9deec09babf6bf790ab515"
+  },
+  {
+    "file": "licenses/NVIDIA-Source-Code-License-NC.txt",
+    "upstream_url": "https://raw.githubusercontent.com/rosinality/stylegan2-pytorch/master/LICENSE-NVIDIA",
+    "sha256": "803ddcc4dd20de6387e2e5731f6a864ea01364dd305b17bda7157bcab0c39295"
+  }
+]

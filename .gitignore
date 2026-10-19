@@ -1,0 +1,17 @@
+# Generated datasets, observations, weights, caches, and results stay in work/.
+work/
+*.mat
+*.pth
+*.pt
+*.ckpt
+*.npz
+*.h5
+*.hdf5
+*.partial
+*.log
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.cache/
+.DS_Store

@@ -1,0 +1,93 @@
+for ite in range(Ite):
+    # ===== Module B: 定位估计 (首先执行) =====
+    MSE_B_pri = torch.norm((H_LoS_t - H_B_pri_mean), p="fro") ** 2 / (Nx * Ny)
+
+    # 位置估计
+    UE_pos_mean, UE_pos_var, rho_post = locf.LoS_angle_est_byhand(H_B_pri_mean, H_B_pri_var, UE_pos_mean, sysPar)
+
+    # 从位置重构LoS信道
+    H_B_post_mean, _, _ = locf.H_LoS_from_pos(UE_pos_mean, rho_post, sysPar, device=config.device)
+    H_B_post_var = H_B_pri_var / (Nx * Ny)
+
+    MSE_B_post = torch.norm((H_LoS_t - H_B_post_mean), p="fro") ** 2 / (Nx * Ny)
+
+    # 计算外信息
+    H_B_ext_var = 1 / (1 / H_B_post_var - 1 / H_B_pri_var)
+    H_B_ext_mean = H_B_ext_var * (H_B_post_mean / H_B_post_var - H_B_pri_mean / H_B_pri_var)
+
+    # ===== Module C: Score-based去噪 (利用Module B的外信息) =====
+    if ite == 0:
+        G_C_pri_mean = y_noise_t - H_B_ext_mean  # 粗估计NLoS
+        G_C_pri_var = torch.tensor(1.0, dtype=torch.float32, device=config.device)
+    else:
+        # 融合来自Module A和Module B的信息
+        G_C_pri_mean = damping * G_A_ext_mean + (1.0 - damping) * G_C_pri_mean
+        G_C_pri_var = damping * G_A_ext_var + (1.0 - damping) * G_C_pri_var
+
+    MSE_C_pri = torch.norm((H_NLoS_t - G_C_pri_mean), p="fro") ** 2 / (Nx * Ny)
+
+    with torch.no_grad():
+        # 准备输入
+        H_C_pri_nn = torch.cat((G_C_pri_mean.real.unsqueeze(0).unsqueeze(0), 
+                                G_C_pri_mean.imag.unsqueeze(0).unsqueeze(0)), dim=1)
+        std_C_pri = torch.sqrt(torch.abs(G_C_pri_var / 2)).unsqueeze(0)
+
+        # Score模型推理
+        s1 = s1_model(H_C_pri_nn, std_C_pri)
+        s2 = s2_model(H_C_pri_nn, std_C_pri)
+
+        # 后验估计
+        H_C_post_nn = H_C_pri_nn + std_C_pri ** 2 * s1
+        G_C_post_mean = H_C_post_nn.squeeze(0)[0, :, :] + 1j * H_C_post_nn.squeeze(0)[1, :, :]
+
+        # 后验方差
+        v_C_matrix_post = std_C_pri ** 4 * s2 + std_C_pri ** 2
+        v_C_matrix_post = torch.clamp(v_C_matrix_post, min=ksi)
+        G_C_post_var = torch.mean(v_C_matrix_post)
+
+    MSE_C_post = torch.norm((H_NLoS_t - G_C_post_mean), p="fro") ** 2 / (Nx * Ny)
+
+    # 计算外信息
+    G_C_ext_var = 1 / (1 / G_C_post_var - 1 / G_C_pri_var)
+    G_C_ext_mean = G_C_ext_var * (G_C_post_mean / G_C_post_var - G_C_pri_mean / G_C_pri_var)
+
+    # ===== Module A: LMMSE分离 (利用Module B和Module C的外信息) =====
+    if ite == 0:
+        H_A_pri_mean = H_B_ext_mean
+        H_A_pri_var = H_B_ext_var
+        G_A_pri_mean = G_C_ext_mean
+        G_A_pri_var = G_C_ext_var
+    else:
+        # 阻尼更新
+        H_A_pri_mean = damping * H_B_ext_mean + (1.0 - damping) * H_A_pri_mean
+        H_A_pri_var = damping * H_B_ext_var + (1.0 - damping) * H_A_pri_var
+        G_A_pri_mean = damping * G_C_ext_mean + (1.0 - damping) * G_A_pri_mean
+        G_A_pri_var = damping * G_C_ext_var + (1.0 - damping) * G_A_pri_var
+
+    # LMMSE后验估计
+    X_A_pri_mean = torch.cat([H_A_pri_mean, G_A_pri_mean], dim=0)
+    residual = y_noise_t - W @ X_A_pri_mean
+
+    gain_H = H_A_pri_var / (H_A_pri_var + G_A_pri_var + pow_noise)
+    gain_G = G_A_pri_var / (H_A_pri_var + G_A_pri_var + pow_noise)
+
+    H_A_post_mean = H_A_pri_mean + gain_H * residual
+    H_A_post_var = H_A_pri_var * (G_A_pri_var + pow_noise) / (H_A_pri_var + G_A_pri_var + pow_noise)
+
+    G_A_post_mean = G_A_pri_mean + gain_G * residual
+    G_A_post_var = G_A_pri_var * (H_A_pri_var + pow_noise) / (H_A_pri_var + G_A_pri_var + pow_noise)
+
+    # 计算外信息 (反馈给下一次迭代)
+    H_A_ext_var = 1 / (1 / H_A_post_var - 1 / H_A_pri_var)
+    H_A_ext_mean = H_A_ext_var * (H_A_post_mean / H_A_post_var - H_A_pri_mean / H_A_pri_var)
+
+    G_A_ext_var = 1 / (1 / G_A_post_var - 1 / G_A_pri_var)
+    G_A_ext_mean = G_A_ext_var * (G_A_post_mean / G_A_post_var - G_A_pri_mean / G_A_pri_var)
+
+    # 为下一次迭代准备Module B的先验 (闭环反馈)
+    if ite < Ite - 1:  # 最后一次迭代不需要更新
+        H_B_pri_mean = damping * H_A_ext_mean + (1.0 - damping) * H_B_pri_mean
+        H_B_pri_var = damping * H_A_ext_var + (1.0 - damping) * H_B_pri_var
+
+
+    trajectory.append(UE_pos_mean.clone())

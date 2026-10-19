@@ -1,0 +1,74 @@
+{
+  "model": {
+    "attention_type": "ddpm",
+    "attn_resolutions": [
+      8
+    ],
+    "beta_max": 20.0,
+    "beta_min": 0.1,
+    "ch_mult": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "conditional": true,
+    "conv_size": 3,
+    "dropout": 0.0,
+    "ema_rate": 0.999,
+    "embedding_type": "fourier",
+    "fir": true,
+    "fir_kernel": [
+      1,
+      3,
+      3,
+      1
+    ],
+    "fourier_scale": 16,
+    "init_scale": 0.0,
+    "name": "ncsnpp",
+    "nf": 128,
+    "nonlinearity": "swish",
+    "normalization": "GroupNorm",
+    "num_res_blocks": 2,
+    "num_scales": 2000,
+    "progressive": "output_skip",
+    "progressive_combine": "sum",
+    "progressive_input": "input_skip",
+    "resamp_with_conv": true,
+    "resblock_type": "biggan",
+    "scale_by_sigma": true,
+    "sigma_max": 348,
+    "sigma_min": 0.01,
+    "skip_rescale": true
+  },
+  "optim": {
+    "beta1": 0.9,
+    "eps": 1e-08,
+    "grad_clip": 1.0,
+    "lr": 5e-05,
+    "optimizer": "Adam",
+    "warmup": 5000,
+    "weight_decay": 0
+  },
+  "training": {
+    "batch_size": 256,
+    "continuous": true,
+    "eval_freq": 200,
+    "likelihood_weighting": false,
+    "log_freq": 50,
+    "mse_calculation_freq": 1000,
+    "n_iters": 180001,
+    "reduce_mean": false,
+    "sde": "vesde",
+    "snapshot_freq": 10000,
+    "snapshot_freq_for_preemption": 5000,
+    "snapshot_sampling": true
+  },
+  "data": {
+    "image_size": 64,
+    "num_channels": 2,
+    "centered": false
+  },
+  "seed": 42
+}
