@@ -1,23 +1,25 @@
 cff-version: 1.2.0
-message: "If you use this code, please cite the associated paper."
-title: "STMP: Enhancing Localization Accuracy via Score-Based Interference Suppression"
+message: If you use this code, please cite the associated paper.
+title: 'STMP: Enhancing Localization Accuracy via Score-Based Interference Suppression'
 type: software
 version: 1.0.0
-date-released: 2026-10-18
+date-released: '2026-10-18'
 authors:
-  - family-names: Teng
-    given-names: Boyu
+- family-names: Teng
+  given-names: Boyu
 preferred-citation:
   type: article
-  title: "Enhancing Localization Accuracy via Score-Based Interference Suppression"
+  title: Enhancing Localization Accuracy via Score-Based Interference Suppression
   authors:
-    - family-names: Teng
-      given-names: Boyu
-    - family-names: Yuan
-      given-names: Xiaojun
+  - family-names: Teng
+    given-names: Boyu
+  - family-names: Yuan
+    given-names: Xiaojun
   journal: IEEE Wireless Communications Letters
   year: 2026
   volume: 15
   start: 3836
   end: 3840
   doi: 10.1109/LWC.2026.3708142
+  url: https://ieeexplore.ieee.org/abstract/document/11586053
+repository-code: https://github.com/Tengboy/STMP-positioning

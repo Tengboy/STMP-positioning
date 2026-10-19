@@ -1,6 +1,6 @@
 # STMP 定位实验复现代码
 
-对应论文 **Enhancing Localization Accuracy via Score-Based Interference Suppression**，作者 Boyu Teng、Xiaojun Yuan。[论文 DOI](https://doi.org/10.1109/LWC.2026.3708142) · [English](README.md)
+对应论文 **Enhancing Localization Accuracy via Score-Based Interference Suppression**，作者 Boyu Teng、Xiaojun Yuan。[论文 DOI](https://doi.org/10.1109/LWC.2026.3708142) · [English](README.md) · [论文引用](#论文引用)
 
 项目自有代码使用 **MIT**，版权署名 **Boyu Teng**。原代码中的作者署名保留。QuaDRiGa、Score-SDE、EMA 和 NVIDIA 相关代码各自保留原许可证；其中 QuaDRiGa 与 NVIDIA 组件含非商业条款，整个依赖包不能视为全部使用 MIT。详见 [第三方许可说明](THIRD_PARTY_NOTICES.md)。`baseline/` 中是 Boyu Teng 提供的 MDVALSE 非官方实验实现，并非参考论文作者的官方仓库发布版。
 
@@ -49,3 +49,24 @@ python scripts/plot_reference_results.py --output work/reference_plots
 E2 按要求只显示 kappa=0、5、10 dB；-5 dB 原始实验仍运行，汇总表仍保留。强干扰坏点没有被删除或伪装成成功样本。A/B 图已包含 MDVALSE。收敛、筛样、非有限结果及批处理差异详见 [RESULTS.md](docs/RESULTS.md)。
 
 许可证、引用文件、检查脚本及源码哈希清单都在包内。`docs/VERIFICATION.md` 区分此次发布验证和此前完整复现；整理代码时没有再次进行完整训练。
+
+## 论文引用
+
+如果本代码或实验结果对您的研究有帮助，请引用对应的原始论文：
+
+Boyu Teng, Xiaojun Yuan, “Enhancing Localization Accuracy via Score-Based Interference Suppression,” *IEEE Wireless Communications Letters*, vol. 15, pp. 3836–3840, 2026. [DOI: 10.1109/LWC.2026.3708142](https://doi.org/10.1109/LWC.2026.3708142).
+
+[IEEE Xplore 原文](https://ieeexplore.ieee.org/abstract/document/11586053) · [下载 BibTeX](CITATION.bib) · [GitHub 引用元数据](CITATION.cff)
+
+```bibtex
+@article{Teng2026STMP,
+  author  = {Teng, Boyu and Yuan, Xiaojun},
+  title   = {{Enhancing Localization Accuracy via Score-Based Interference Suppression}},
+  journal = {IEEE Wireless Communications Letters},
+  year    = {2026},
+  volume  = {15},
+  pages   = {3836--3840},
+  doi     = {10.1109/LWC.2026.3708142},
+  url     = {https://ieeexplore.ieee.org/abstract/document/11586053}
+}
+```

@@ -37,8 +37,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 671,
-      "sha256": "6cde81439a6f73c7d37d73df417a19c01e9e5e1339f4eb24486ae237c753e2a4"
+      "bytes": 757,
+      "sha256": "982db1e06092e44eab86108fc6a536e255135c159d961736fc3aa45ad4cd2f3a"
     },
     {
       "path": "configs/experiments.json",
@@ -128,13 +128,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 4564,
-      "sha256": "ebf075215020d8351dd6f3008111bf992ed07c10b6404a551caeb8e27fa1d322"
+      "bytes": 5512,
+      "sha256": "e8150d243f89411eda47436b4922674ea24444f5b66b7b185ac468b57660d36a"
     },
     {
       "path": "README_zh.md",
-      "bytes": 4147,
-      "sha256": "34b04d3e1c9759ab20688e315f9353126fe571e658e711560725d7af2ec12b7d"
+      "bytes": 5115,
+      "sha256": "cc84c4c90e493dff2c5b8f6eb8492de5fc419b03bdb2e2b6bd796f68c142df83"
     },
     {
       "path": "release_checks.json",
@@ -3216,6 +3216,12 @@
       "path": "THIRD_PARTY_NOTICES.md",
       "bytes": 4585,
       "sha256": "f8764d1feb2160afdefe99a782735a00ade5b33103a90878e3bb41e9ce1cbd1d"
+    }
+,
+    {
+      "path": "CITATION.bib",
+      "bytes": 384,
+      "sha256": "86f37034995b6e3d3c9a8864c2503461437b28aa29df7789c57f6816aff27e79"
     }
   ]
 }
